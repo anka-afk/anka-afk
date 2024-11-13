@@ -2,4 +2,4 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anka-afk&show_icons=true&theme=dracula)
 
-![trophy](https://github-profile-trophy.vercel.app/?username=anka-afk)
+![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=anka-afk)
