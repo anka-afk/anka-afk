@@ -2,7 +2,7 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=anka-afk" />
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anka-afk&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=First+line+of+text;Second+line+of+text)](https://git.io/typing-svg)
+[![trophy](https://github-profile-trophy.vercel.app/?username=anka-afk&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 ![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=anka-afk&theme=github)
 
