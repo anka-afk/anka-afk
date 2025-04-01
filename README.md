@@ -1,7 +1,12 @@
 # 👋 Hi there, I'm anka 
 
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?lines=On+all+the+sites;I+have+the+same+name" alt="Typing SVG" />
+  </a>
+</p>
+
 <div align="center">
-  [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=On+all+the+sites;I+have+the+same+name)](https://git.io/typing-svg)
   <img src="https://github-readme-stats.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" height="150" alt="stats graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anka-afk&layout=compact&hide_border=true&theme=ambient_gradient" height="150" alt="languages graph" />
 </div>
