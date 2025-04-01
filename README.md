@@ -1,15 +1,19 @@
+<div align="center">
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anka-afk&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+</div>
 
-
+<div align="center">
 ![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=anka-afk)
+</div>
 
-
+<div align="center>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Peter-JXL/Peter-JXL/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Peter-JXL/Peter-JXL/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Peter-JXL/Peter-JXL/output/github-contribution-grid-snake.svg">
 </picture>
+</div>
 
 <div align="center">  
 <a href="https://www.cplusplus.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="50" /></a>  
