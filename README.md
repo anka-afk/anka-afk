@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm anka-afk
+# 👋 Hi there, I'm anka
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" height="150" alt="stats graph" />
