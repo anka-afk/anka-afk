@@ -1,6 +1,12 @@
 # 👋 Hi there, I'm anka 
 
 <div align="center">
+  <img src="github-metrics.svg" alt="Metrics - Whoami & Achievements" />
+</div>
+
+<br>
+
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" height="150" alt="stats graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anka-afk&layout=compact&hide_border=true&theme=ambient_gradient" height="150" alt="languages graph" />
 </div>
@@ -26,14 +32,12 @@
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
 </div>
 
-## 📊 Current Streak & Activity Graph
+## 📈 Activity & Snake
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=anka-afk&hide_border=true&theme=default" height="150" alt="streaks graph" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=anka-afk&theme=github&hide_border=true&height=250&radius=8" alt="activity graph" />
 </div>
-
-## 🐍 Snake Contributions
 
 <div align="center">
   <picture>
@@ -41,10 +45,4 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anka-afk/anka-afk/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/anka-afk/anka-afk/output/github-contribution-grid-snake.svg">
   </picture>
-</div>
-
-## 🔭 In-depth Developer Metrics
-
-<div align="center">
-  <img src="github-metrics.svg" alt="Metrics" />
 </div>
