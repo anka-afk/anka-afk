@@ -49,3 +49,4 @@ jobs:
           plugin_lines: yes
 
           plugin_stargazers: yes
+          plugin_stargazers_charts: yes
