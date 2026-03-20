@@ -17,14 +17,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: anka-afk
           template: terminal
-          
-          base: header, repositories, metadata
-          
-          extras_css: |
-            .terminal { background: #0D0D0D !important; border: 1px solid #00FF41 !important; }
-            .terminal * { color: #00FF41 !important; text-shadow: 0 0 2px #00FF41 !important; }
-            .terminal h2 { color: #00FF41 !important; }
-            
+          base: header, repositories
           plugin_languages: no
           plugin_projects: no
 
