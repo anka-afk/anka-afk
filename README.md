@@ -6,7 +6,9 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anka-afk&theme=react-dark&hide_border=true" alt="Activity Graph" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,cpp,linux,git,github,docker,vscode&theme=dark" />
+  </a>
 </div>
 
 ## 📊 Current Streak & Activity
