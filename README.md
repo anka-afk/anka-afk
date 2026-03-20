@@ -1,11 +1,5 @@
 # 👋 Hi there, I'm anka 
 
-<div align="center">
-  <img src="github-metrics-terminal.svg" alt="Metrics - Whoami" />
-  <br>
-  <img src="github-metrics-plugins.svg" alt="Metrics - Plugins" />
-</div>
-
 <br>
 
 <table width="100%">
