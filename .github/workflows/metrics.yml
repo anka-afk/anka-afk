@@ -5,6 +5,11 @@ on:
   push: {branches: ["master", "main"]}
 
 jobs:
+github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
       - name: Generate Terminal Header
         uses: lowlighter/metrics@latest
         with:
