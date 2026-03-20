@@ -65,7 +65,3 @@
   </picture>
 </div>
 
-<div align="center">
-  <br>
-  <img src="https://profile-counter.glitch.me/anka-afk/count.svg" alt="Visitor Count" />
-</div>
