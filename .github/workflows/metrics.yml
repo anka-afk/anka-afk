@@ -20,7 +20,7 @@ jobs:
           base: header
           plugin_languages: no
 
-      - name: Generate Plugins Content
+      - name: Generate Compact Plugins Content
         uses: dkhokhlov/metrics@master
         with:
           filename: github-metrics-plugins.svg
@@ -29,17 +29,20 @@ jobs:
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
+          
           plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
+          plugin_achievements_display: compact
           plugin_achievements_threshold: C
+          
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          plugin_habits_charts: no
+          
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_user: "76561198807374746"
-          plugin_steam_sections: recently-played, detailed-history
-          plugin_steam_games_limit: 2
+          plugin_steam_sections: recently-played
+    
+          plugin_lines: yes
