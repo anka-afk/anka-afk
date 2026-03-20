@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anka-afk&theme=onedark&column=7&row=1&margin-w=15&margin-h=15&no-frame=true" alt="trophy" />
+  <img src="https://github-readme-stats.vercel.app/api?username=anka-afk&theme=onedark&show_icons=true&hide_border=true" alt="GitHub Stats" />
 </div>
 
 ## 📊 Current Streak & Activity
