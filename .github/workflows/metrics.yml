@@ -21,7 +21,7 @@ jobs:
           plugin_languages: no
 
       - name: Generate Plugins Content
-        uses: lowlighter/metrics@latest
+        uses: dkhokhlov/metrics@master
         with:
           filename: github-metrics-plugins.svg
           token: ${{ secrets.METRICS_TOKEN }}
