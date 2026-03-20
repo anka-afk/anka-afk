@@ -1,27 +1,28 @@
-<div align="center">
-  <h1>👋 Hi there, I'm anka</h1>
-
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=Student+at+SCUT;Core+Developer+of+AstrBot;Passionate+about+Algorithms+&+Deep+Learning" alt="Typing SVG" />
-  <br><br>
-
-  <a href="https://ankaanka.me"><img src="https://img.shields.io/badge/Website-ankaanka.me-00599C?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
-  <a href="mailto:postmaster@astrbot.edu.kg"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</div>
-
-<br>
+# 👋 Hi there, I'm anka 
 
 <div align="center">
   <img src="github-metrics-terminal.svg" alt="Metrics - Whoami" />
   <br>
-  <img src="github-metrics-plugins.svg?t=202407221400" alt="Metrics - Plugins" />
+  <img src="github-metrics-plugins.svg" alt="Metrics - Plugins" />
 </div>
 
 <br>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anka-afk&layout=compact&hide_border=true&theme=ambient_gradient" height="150" alt="languages graph" />
-</div>
+<table width="100%">
+  <tr>
+    <td valign="top" width="50%" align="center">
+      <img src="github-metrics-terminal.svg" alt="Metrics - Whoami" />
+      <br><br>
+      <img src="https://github-readme-stats.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" alt="stats graph" />
+      <br><br>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anka-afk&layout=compact&hide_border=true&theme=ambient_gradient" alt="languages graph" />
+    </td>
+    
+    <td valign="top" width="50%" align="center">
+      <img src="github-metrics-plugins.svg?t=202407221500" alt="Metrics - Plugins" />
+    </td>
+  </tr>
+</table>
 
 <br>
 
