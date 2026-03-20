@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anka-afk&theme=onedark&layout=compact&hide_border=true" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anka-afk&theme=onedark" alt="Profile Summary" />
 </div>
 
 ## 📊 Current Streak & Activity
