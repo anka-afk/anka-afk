@@ -17,11 +17,10 @@ jobs:
           template: classic
           base: header
           config_timezone: Asia/Shanghai
-          theme: dark
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          plugin_languages: no
           plugin_lines: yes
           plugin_stargazers: yes
-          plugin_stargazers_limit: 4
+          plugin_stargazers_charts: yes
+          plugin_languages: no
           plugin_projects: no
