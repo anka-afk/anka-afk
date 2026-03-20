@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anka-afk&theme=onedark" alt="Profile Summary" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anka-afk&theme=react-dark&hide_border=true" alt="Activity Graph" />
 </div>
 
 ## 📊 Current Streak & Activity
