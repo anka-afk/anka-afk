@@ -11,7 +11,7 @@ jobs:
       contents: write
     steps:
       - name: Generate Terminal Header
-        uses: lowlighter/metrics@latest
+        uses: dkhokhlov/metrics@master
         with:
           filename: github-metrics-terminal.svg
           token: ${{ secrets.METRICS_TOKEN }}
