@@ -1,11 +1,19 @@
-# 👋 Hi there, I'm anka 
+<div align="center">
+  <h1>👋 Hi there, I'm anka</h1>
+
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=Student+at+SCUT;Core+Developer+of+AstrBot;Passionate+about+Algorithms+&+Deep+Learning" alt="Typing SVG" />
+  <br><br>
+
+  <a href="https://ankaanka.me"><img src="https://img.shields.io/badge/Website-ankaanka.me-00599C?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="mailto:postmaster@astrbot.edu.kg"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</div>
+
+<br>
 
 <div align="center">
   <img src="github-metrics-terminal.svg" alt="Metrics - Whoami" />
-</div>
-
-<div align="center">
-  <img src="github-metrics-plugins.svg" alt="Metrics - Plugins" />
+  <br>
+  <img src="github-metrics-plugins.svg?t=202407221400" alt="Metrics - Plugins" />
 </div>
 
 <br>
@@ -14,6 +22,8 @@
   <img src="https://github-readme-stats.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" height="150" alt="stats graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anka-afk&layout=compact&hide_border=true&theme=ambient_gradient" height="150" alt="languages graph" />
 </div>
+
+<br>
 
 ## 🛠️ Skills & Technologies
 
@@ -36,12 +46,16 @@
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
 </div>
 
-## 📊 Current Streak & Activity Graph
+<br>
+
+## 📈 Current Streak & Activity Graph
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=anka-afk&hide_border=true&theme=default" height="150" alt="streaks graph" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=anka-afk&theme=github&hide_border=true&height=250&radius=8" alt="activity graph" />
 </div>
+
+<br>
 
 ## 🐍 Snake Contributions
 
@@ -51,4 +65,9 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anka-afk/anka-afk/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/anka-afk/anka-afk/output/github-contribution-grid-snake.svg">
   </picture>
+</div>
+
+<div align="center">
+  <br>
+  <img src="https://profile-counter.glitch.me/anka-afk/count.svg" alt="Visitor Count" />
 </div>
