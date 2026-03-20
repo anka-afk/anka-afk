@@ -32,12 +32,14 @@
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
 </div>
 
-## 📈 Activity & Snake
+## 📊 Current Streak & Activity Graph
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=anka-afk&hide_border=true&theme=default" height="150" alt="streaks graph" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=anka-afk&theme=github&hide_border=true&height=250&radius=8" alt="activity graph" />
 </div>
+
+## 🐍 Snake Contributions
 
 <div align="center">
   <picture>
