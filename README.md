@@ -6,9 +6,7 @@
 </div>
 
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,cpp,linux,git,github,docker,vscode&theme=dark" />
-  </a>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anka-afk&theme=onedark" alt="Profile Summary" />
 </div>
 
 ## 📊 Current Streak & Activity
