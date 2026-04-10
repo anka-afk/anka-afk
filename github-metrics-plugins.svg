@@ -12,11 +12,11 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 4 commits)</small>
+                    <small class="h-details">(computed from last 2 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
-                        <li>Mostly pushes code around 14:00</li>
+                        <li>Mostly pushes code around 22:00</li>
                         <li>Mostly active on Monday</li>
                     </ul>
                 </div>
@@ -33,76 +33,76 @@
                         <h3>Total stargazers</h3>
                         <div class="chart-bars">
                             <div class="entry">
-                                <span class="value">844</span>
+                                <span class="value">845</span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                27
+                                28
                                 <div class="bottom">Mar.</div>
                             </div>
                             <div class="entry">
-                                <span class="value">845</span>
-                                <div class="bar" style="height: 4.032258064516129px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                28
-                            </div>
-                            <div class="entry">
                                 <span class="value">848</span>
-                                <div class="bar" style="height: 8.629032258064516px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="height: 7.096774193548386px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 29
                             </div>
                             <div class="entry">
                                 <span class="value">850</span>
-                                <div class="bar" style="height: 11.693548387096772px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="height: 10.161290322580646px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 30
                             </div>
                             <div class="entry">
                                 <span class="value">853</span>
-                                <div class="bar" style="height: 16.29032258064516px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 14.758064516129032px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 31
                             </div>
                             <div class="entry">
                                 <span class="value">855</span>
-                                <div class="bar" style="height: 19.35483870967742px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 17.82258064516129px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 1
                                 <div class="bottom">Apr.</div>
                             </div>
                             <div class="entry">
                                 <span class="value">859</span>
-                                <div class="bar" style="height: 25.483870967741932px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <div class="bar" style="height: 23.951612903225804px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 2
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
-                                <div class="bar" style="height: 25.483870967741932px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <div class="bar" style="height: 23.951612903225804px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 3
                             </div>
                             <div class="entry">
                                 <span class="value">861</span>
-                                <div class="bar" style="height: 28.548387096774192px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <div class="bar" style="height: 27.016129032258064px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 4
                             </div>
                             <div class="entry">
                                 <span class="value">865</span>
-                                <div class="bar" style="height: 34.67741935483871px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <div class="bar" style="height: 33.145161290322584px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 5
                             </div>
                             <div class="entry">
                                 <span class="value">869</span>
-                                <div class="bar" style="height: 40.806451612903224px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 39.274193548387096px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 6
                             </div>
                             <div class="entry">
                                 <span class="value">875</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 48.46774193548387px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 7
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 48.46774193548387px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 8
+                            </div>
+                            <div class="entry">
+                                <span class="value">876</span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                9
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
-                                9
+                                10
                             </div>
                         </div>
                     </section>
@@ -110,15 +110,10 @@
                         <h3>New stargazers per day</h3>
                         <div class="chart-bars">
                             <div class="entry">
-                                <span class="value">+3</span>
-                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                27
-                                <div class="bottom">Mar.</div>
-                            </div>
-                            <div class="entry">
                                 <span class="value">+1</span>
                                 <div class="bar" style="height: 8.333333333333332px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 28
+                                <div class="bottom">Mar.</div>
                             </div>
                             <div class="entry">
                                 <span class="value">+3</span>
@@ -177,9 +172,14 @@
                                 8
                             </div>
                             <div class="entry">
+                                <span class="value">+1</span>
+                                <div class="bar" style="height: 8.333333333333332px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                9
+                            </div>
+                            <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                                9
+                                10
                             </div>
                         </div>
                     </section>
@@ -324,7 +324,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="2.7583846680355926 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="2.9705681040383283 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -555,7 +555,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 106k out of 309m repositories</span>
+                                    <span class="gh">ranked 106k out of 310m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">551</div>
                                     </div>
@@ -713,7 +713,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 784k out of 309m repositories</span>
+                                    <span class="gh">ranked 784k out of 310m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">18</div>
                                     </div>
@@ -899,15 +899,15 @@
                     </h2>
                     <div class="medias largeable-flex-wrap">
                         <div class="media largeable-width-half">
-                            <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCABAAEADASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAABQYHCAQDAf/EADAQAAEDAwMDAgQFBQAAAAAAAAECAwQABREGEiEHEzEiQRVCYXEUI1FSgRYyU5Gh/8QAGgEAAgMBAQAAAAAAAAAAAAAAAgMEBQYBAP/EACERAAICAgICAwEAAAAAAAAAAAECAAMEEhEiBTEUIUJR/9oADAMBAAIRAxEAPwABo2BDuzLpcbcAA/dR06dtgASEOnn91cfSeJ3Yr3Cqe/hhAyltROa1eFoa+wmZzHZbTrFqLb2ITag1k5+tTnqaCm9pJ49Aq0pt5342VJOr8ftaiQF8DYmveTKDH4UTuA7NeNoisBCHEOuHOTjAqpwNcW1p+JE7K1ApSkkK8VLHVpQlwrAKUp4xRfSelJF1S660w8pwDckg1n8fIekdJojj7zUOixapslqUl3DaAClO7nNVRrYppPaOQOQaw1Fl6h6fahZWp5TW8jal71J/1WldJdQHLnbUOuR1OLUkAyEEBCT9qVddZeeWhrSK5PeibLZty0vkE7jgjjNXG3WKMpre4MhQ8ZrNWnEL/pyMUOLbPeVuKDjijkDUdxs5Jiz1uZ4CVqKqnM7mvq0pmCi47S2X63MtqQGGtmPes1dc0JGsFDIV+UkYFO0rXl9eQlTLrZA87k5qX9RrpJul6Q/LUhThSAdqcV2zf4/Yw6gpuGsVI1vfuc1mFFSVyHDgEeBVg0CbvpFQtdxtbr5d8OpwAAammlpDsXUlvcYIDanMHjmtBPKdbKVk91akgge9V1Wz/SS7XlYh9U9A3DUuo1XKO6S08ylttH+NQ8mpxZr5qTp5fCylRG3hTbw3Jx+uK0TFluICMZ3LOCk1NOuBjp1yG5MU9oxmyFp43HHIpyoyHvEWuTBVvnpi6daw6CQ4rgUNlXjvqTtBQR70z27RLlwtDa5V3ixQlZ8oNfE9PG1NrWdRQS2n3CDUsLWpla1YsPqLTF1W0QkKJKfVtoLf5hmzO4U7HCMbcf8Aa0XonSdut2n2Gwli5Sd5JeSjgg+BzRBGiodq9UyKxJedUVJUEDHPy/xScm6srwJJooVPviZj0w401qS2l05ZS7k8eKuzs/8AE6gkxGPzOzGQ5lPyg0wN9P4TF8nOS4ra2JLCQQ2kDt/Ufoa5HtLw9ONn4f3VvvnClrVkhPsDUfGABkuCo8hwOocLiUoWraFEf2ke5pS6xQbhPkJuqIjjlvSgIDqfYjyabmY4MoNIBCnTt58Z+lOekFJksriTWkulsnIUMox9qlWgGCU5nho9loafQj4d+IIcUT4NEmmY4QAmykq3HKcCk+z2d63JUtyW9tRzhKyBXfIvDKg2HpvbbB9lEGs2fKOw9Q0yKV/EalSCG3Gm7atsEY9GB/A+tezExx1LUZ23yO0g7gpRyQfvSIvUsXcVNTfQngZUePqa4tQ9WHNMy2IYYMkABalD5gfaioyHuPqP+XSfxLJElM3GE+06UtugbSSPA9qEzYUe6hZCFONoTtGzgkip1pbrVAu9zjWtiyvtOSV7VOKIqpu3JiO33W46sNjKUJ43GrJEYRZ/sBxdLwlOl5tz0t84zyKJ2+2wok0oihRdIyefNCDq+Gz3UIhOpUvyM+9dkTUEeSsviOtshIGSaaUYwduJ/9k=" alt="" />
+                            <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCABAAEADASIAAhEBAxEB/8QAHAAAAgMAAwEAAAAAAAAAAAAAAQYABAcCAwUI/8QAKhAAAgEDBAIBAwQDAAAAAAAAAQIDAAQRBQYSITFBMgcTURQiYZEVI6H/xAAaAQACAwEBAAAAAAAAAAAAAAABAwAEBQIG/8QAIREAAgICAgIDAQAAAAAAAAAAAAECAxEhBAUSMSJBYRP/2gAMAwEAAhEDEQA/APmjWNTm1K6+5NgYHoVQ5k+xQf5UMZI6wKnoOd7PV0Kw/wAjOUdsKO8U32u0eEyyBj9v8e6pbKtIl5TK3JsVp2nRK0QZu2H9VUuswYPYc2dUsREu/wBnLOiHmVA7OaQNZ06bSr17d+/YNfQbxqyYJUL6J90k77sLOawkeZCZYhyDL1mhTbjQnruynKfhMyLmwqzp17LZXaTxY5A+xVZgObBRkUFAyKufp6LRH+VAUX+VAe6nsL97Hza1zALdW6jx1g+zTzp16xVWBDY8YrE7O5a1njcciFOSuabtt6rPqNwYMMqDskHxVW2rJkcvr5Xy+JpT3hMbgsMnz/FKO+L+ODTnjZgXkXAFebvb9ZoaW0aTElzyz/FJF7ez3j/cuJOTHrH4oVUfZzR1H8Zqcise+6i/IUDnFRfmKt/htZX0Fzk91FBY4FR/NRSVOVqZI8s0nQdm29xo73cuW/ZnAPdeHs4/b124t40bzxA94zVCDc97Dpn6OOQqvs01bS3DDqFwiTWqC7QAB0UDNIkmk8ieHCcbH5s5fWI/7rIAeFH94rNRWmfWIAXFivFsnB/5XVY7OtL3Qlu1JBAye6NcviN5Vyrn8jN+8UU7Ndl1GYbiRB4ViK6wMNTkwRaewuf3UPYyeqt6jYz2Vx9u4jKkiqnA+xRb2HSJjvGaZNhEjWcqMt1il6KJpHCL5PunrakMGlxq8siCZj5pVjSixlaXmvIbvqTrNtpsdqz2olvuI4lgCo6/FZtHuq8W1miLcQ+ThegKft6DTde06FP1ccd6nYY1lmqWD6fdGB2WQgZ5L4NLpWYh5UFZLDWipJIZJGYnz2a4p8gB3U4n8VYsraW4uEigjJcmrGNCvXo//9k=" alt="" />
                             <div class="about">
-                                <div class="name">Sickly Days and Summer Traces</div>
+                                <div class="name">Terraria</div>
                                 <div class="infos">
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/>
                                         </svg>
-                                        Casual
+                                        Action, Adventure, Indie, RPG
                                     </div>
                                 </div>
                                 <div class="infos">
@@ -915,7 +915,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z"/>
                                         </svg>
-                                        2 hours played
+                                        753 hours played
                                     </div>
                                 </div>
                                 <div class="infos">
@@ -923,7 +923,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path d="M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 0 1 4.75 0ZM2.5 7.5v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V7.5Zm10.75-4H2.75a.25.25 0 0 0-.25.25V6h11V3.75a.25.25 0 0 0-.25-.25Z"/>
                                         </svg>
-                                        Last played on 3 Apr 2026
+                                        Last played on 9 Apr 2026
                                     </div>
                                 </div>
                                 <div class="achievements">
@@ -932,32 +932,32 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                                 <path d="M3.217 6.962A3.75 3.75 0 0 1 0 3.25v-.5C0 1.784.784 1 1.75 1h1.356c.228-.585.796-1 1.462-1h6.864c.647 0 1.227.397 1.462 1h1.356c.966 0 1.75.784 1.75 1.75v.5a3.75 3.75 0 0 1-3.217 3.712 5.014 5.014 0 0 1-2.771 3.117l.144 1.446c.005.05.03.12.114.204.086.087.217.17.373.227.283.103.618.274.89.568.285.31.467.723.467 1.226v.75h1.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H4v-.75c0-.503.182-.916.468-1.226.27-.294.606-.465.889-.568.139-.048.266-.126.373-.227.084-.085.109-.153.114-.204l.144-1.446a5.015 5.015 0 0 1-2.77-3.117ZM4.5 1.568V5.5a3.5 3.5 0 1 0 7 0V1.568a.068.068 0 0 0-.068-.068H4.568a.068.068 0 0 0-.068.068Zm2.957 8.902-.12 1.204c-.093.925-.858 1.47-1.467 1.691a.766.766 0 0 0-.3.176c-.037.04-.07.093-.07.21v.75h5v-.75c0-.117-.033-.17-.07-.21a.766.766 0 0 0-.3-.176c-.609-.221-1.374-.766-1.466-1.69l-.12-1.204a5.064 5.064 0 0 1-1.087 0ZM13 2.5v2.872a2.25 2.25 0 0 0 1.5-2.122v-.5a.25.25 0 0 0-.25-.25H13Zm-10 0H1.75a.25.25 0 0 0-.25.25v.5c0 .98.626 1.813 1.5 2.122Z"/>
                                             </svg>
-                                            9 / 42 achievements unlocked
+                                            116 / 137 achievements unlocked
                                         </div>
                                     </div>
                                     <div class="achievement">
-                                        <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAgACADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAABAUGBwP/xAAwEAACAQIFAQYDCQAAAAAAAAABAgMEEQAFBhIhMQcUFSJBYRMWoSMyUVJxkbHR8P/EABYBAQEBAAAAAAAAAAAAAAAAAAMEAv/EABsRAQADAQEBAQAAAAAAAAAAAAEAAhESAyEi/9oADAMBAAIRAxEAPwDMa7NVo4wzAsx6KDgKLN6qrktHthQDkjn9zhVW1K1BCshVzyCT1/3AwblNK0j93Hlf7zE9AOLk+wwp+TWarXXJd6SShzRZqbNJGiYRlxUIbHgXsQOPpgXM8g8NVaqGZamjc/Zyp6+xHo3t/Ix20xlEBp6xsxm7r3YWqtx8yRF9nxFA5YoxG5PUHjCotXZRPLBOz91ZgoZhZZAeVO09QRyL/Q4Pp3RlTWvIZIWsR1ngZlYMCeoN+OcVGjKh2zdZBD3mWJd6QbCwqOdpiNvzBiL/AN40LUfbDQZtkeZZTPp55KWpQxeeZboTyGBC3uDY4l+xCGv+cqV6ER7I42NSzre0Z4sPcnp+l/TGrmHyD5P0m7dmui6DwGXM9SxXlqYzvjqF2lE2bSH5N72U368A9b4Zav0bpvNtPUD1VOPD8vBmjVCYh8O3K8WNuvH44e0U9XPBJEwgmufNeO9/UXGHOX05ALZgEZDztZRYW6cYhb26ll/MK9Ls/9k=" alt="" />
+                                        <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAgACADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgUCB//EAC8QAAEDAwMCAwcFAQAAAAAAAAECAwQFBhEAEiEHEzFBURQiIzJhcYEXUoKR8PH/xAAYAQACAwAAAAAAAAAAAAAAAAABAgMEBf/EACMRAAEDAwMFAQAAAAAAAAAAAAEAAgMEETESEyEiQVFh8HH/2gAMAwEAAhEDEQA/AFdmWdac7p/azircpjs12msLddVFbKlrKASVEpySTznU+ox7KiS2mY9lRqlHwe7Li01IbRzgBKija4c/UDGME54Y9O2mZPTC24rsdCkOUtlDnJ99Kmkgg/jW5UBNCcYDEdp6MpDridrIad3ITuDZWjAXuycDA4SfvqGeq2QOOE9LCyVx1Hnwo0aBYa4yGTbFPafcGUoeoQ7g45GQgpz/ACx9dGb5t+30WXWn4FmwWFpgPuB55tllxohBwUpQleSPH5h+NM3pFcenOw90N6Q5t9najp7aG0bfeWonKtgVwFEe9wQDkDUbqRaebErkqdVJypbFPfcIjFLbSiGydpCgSU5+o49NJFUF56CFYkghiF357Jb0uSj9NbcVjLopcbak8A/DT56vx47lQS/G7eWVeKirHbPiCPMEHBHh6+WTz3p5eFps2FbsedcFEbks01hBbfltgoWG0gggnIOfLSOm9RbWhvLQLmoamQcrAnNDx/bzj/f3mVwk3W50+vvv1CnsGm2UilwTS2ezGQRHWvcXNxKifIEnngYA8eAPTGj3UZYT01uveynKqVJA5+X4atarHUi1ZJDTVz0MRyraT7c2So+uN3A+/wD01f8AeVpPdO7iixK/RHJjtPkIShiY2S4S2QkAA8nOhSB++QL6faM1jGCcr//Z" alt="" />
                                         <div>
                                             <div class="name">
-                                                <div>Treasures in the Storage</div>
-                                                <div class="unlocked">3 Apr 2026</div>
+                                                <div>Going Oldschool</div>
+                                                <div class="unlocked">10 Feb 2026</div>
                                             </div>
-                                            <div class="description">Complete 'Organize the Storage Room'</div>
+                                            <div class="description">Bring back the original title screen.</div>
                                         </div>
                                     </div>
                                     <div class="achievement">
-                                        <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAgACADASIAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAABQYHAwQI/8QALRAAAQQBAwEGBQUAAAAAAAAAAQIDBBEFAAYhEhMxQWFxgQcUUVKhIjJCc7H/xAAYAQADAQEAAAAAAAAAAAAAAAABAgQAA//EAB0RAAICAwADAAAAAAAAAAAAAAECABEDEiEiMWH/2gAMAwEAAhEDEQA/AJzi5ub3CtyPELSI0dBedspbaaRYBUe5I7wO69Dp0h4vLjolGWwk8EWGz59NAe9aP7f2TlJqA1GYdb7UpT0O2lTh7wSn7R32dEc1tpG1Z7bWSh/Oq5QpLqihhJJSErKkm6BPIPFEc9+j42dZcA1DflzBtfc0jBY94x5AZdWgpHQSFG+/9tfk6VczNemrcdec6luKs3z+dG8zjUtSlRYam5soDj5COQ2n6gEi1Dzqj9dJswuoklt2w4g0eQefbSqo9iZ2YCp21tXHx4UaRIk9BkuukLWVX03Qqz4/U/4ONbO8cSjI7feYUw/IZBCnI7KwhTwHPR1Hwvn21J97/FB3a+QxzjERmXAmuFEuO6elVUASD/E+tgjRncPxd2S9BkwHsq+tKx2biI7DiifQgUR765thZT8gOazYPZPN+ZLJBg4yLDi4Zhw9IgRCC67/AGKFqPoa9DqWSsaY74bcKQsC1pBvoP2+vl4aaMzuWFjJklzZ86YlqS0UPPy0Dt7scpNfpNWLTzpIRLcU4kJJFci/DzPnqnGusTK+wBn/2Q==" alt="" />
+                                        <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAgACADASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAABAYAAgUD/8QAKxAAAQQCAQMEAgAHAAAAAAAAAQIDBBEFBiEAEjETIkFRBxQWMkJhgaGx/8QAFwEAAwEAAAAAAAAAAAAAAAAAAwQFAf/EACoRAAEBBQcCBwAAAAAAAAAAAAECAAMEERIFITFBYfDxE9EVIlGBobHB/9oADAMBAAIRAxEAPwBGOFal6pra5WEhRYvotKdfYghLjtoAC1OK8/Z8Dknmh08ZrQMHG0tmU9rkSPLtPrvB1PsQo0FD2+fHkAeeesLE4aP/AAjhpGNyExK1wGVF1Ky4j1ykD0q5A5NG6+BzzTRg9VQYLUjIZM/utAdqYxR2pIFdt0Sa5FXQ8V0REI+igVIOl/BawqCCaDKQN7C6vpmo4qGqRnEMPOMABsuQmlMLDgCrCqPf88nxSqAAvoPedBLulz83jtXhw4saG660Ux0NOISQSpS0KslQF837f6aIHVcvl3cfkf0505p+K6m2VtJ71oVQpaKsWQEjuAJHxXkd993HYczomXbkTlxGXGXiYzbBSstmyEOKrmk8WKB5u+geHLdKJiCarsDveTCfO36lFDhACRiTLfx7hl78fIlysTi0HASMp3MISgyUFLIASPBII8V4HP8AvqmeyuWxExxh3HuNOIKuxTrfcpn7DS1ckH4+vPjjorUN1w2P1bHoczCI05EJllbiFoK0BFkAA2L9xHi/89bGPyWs55tUrK7FjI8Vp5TghrlpQsuFZWfd5JJJ5FJHHPStnP4nrqU78oGJPF+npo0pNtv66aJgfm8/thtd1HJzv0XcnKXAVPd7e2OCtz+UqJcWT3D2p+zzQrqfkvQMRhdaly4WRTOSW32y8txJ7HEoUryeVG0lNXdkfVFhjZ/UguZN1zZoGPKimxLlhRdUkGkkKtVUasUP7jpR2Tf8fkNQy8BmVj0KWw/7UO8OqWFWUgm7KiTX/eD1kU5iUKCyqoTy7cs66tERRkqY0O+zf//Z" alt="" />
                                         <div>
                                             <div class="name">
-                                                <div>The Wheels of Time Roll On</div>
-                                                <div class="unlocked">3 Apr 2026</div>
+                                                <div>The Great Slime Mitosis</div>
+                                                <div class="unlocked">20 Jul 2025</div>
                                             </div>
-                                            <div class="description">Use auto mode</div>
+                                            <div class="description">Find all of the Slime Pets and have them move in!</div>
                                         </div>
                                     </div>
                                     <div class="achievement">
                                         <div>
-                                            <div class="description ellipsis">+7 others...</div>
+                                            <div class="description ellipsis">+114 others...</div>
                                         </div>
                                     </div>
                                 </div>
