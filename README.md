@@ -7,9 +7,9 @@
 <td valign="top" width="50%" align="center">
 <img src="github-metrics-terminal.svg" alt="Metrics - Whoami" />
 <br><br>
-<img src="https://github-readme-stats.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" alt="stats graph" />
+<img src="https://my-github-stats-lilac.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" alt="stats graph" />
 <br><br>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anka-afk&layout=compact&hide_border=true&theme=ambient_gradient" alt="languages graph" />
+<img src="https://my-github-stats-lilac.vercel.app/api/top-langs/?username=anka-afk&layout=compact&hide_border=true&theme=ambient_gradient" alt="languages graph" />
 </td>
 <td valign="top" width="50%" align="center">
 <img src="github-metrics-plugins.svg?t=202407221501" alt="Metrics - Plugins" />
