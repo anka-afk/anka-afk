@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="712" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="754" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}.gauge text,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.margin-bottom{margin-bottom:16px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.gauge{stroke-linecap:round;fill:none}.gauge.info{color:#58a6ff}.gauge-arc,.gauge-base{stroke:currentColor;stroke-width:10}.gauge-base{stroke-opacity:.2}.gauge-arc{fill:none;stroke-dashoffset:0;animation-delay:250ms;animation:animation-gauge 1s ease forwards}.gauge text{font-size:40px;font-family:monospace;text-anchor:middle;font-weight:600}.gauge .title{font-size:18px;color:#777}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry,.repository{display:flex;flex-direction:column}.chart-bars .entry{flex-grow:1;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars .entry .bottom{margin-bottom:-1rem;line-height:1rem}.repository{width:100%;margin:6px 0}.repository .name{display:flex;align-items:center;justify-content:space-between;width:440px}.repository .name span:first-child{color:#58a6ff}.repository .name span:last-child{color:#666;font-size:10px}.repository .description{display:block;width:440px;white-space:normal}.repository .description,.repository .infos{color:#666;margin-left:38px;font-size:13px}.repository .infos&gt;div{display:flex;align-items:center;margin-right:16px}.repository .infos svg{margin:0 4px 0 0}.steam .games{margin-left:28px}.steam .media{display:flex;margin-bottom:4px;width:450px}.steam .media img{margin:0 10px;border-radius:7px}.steam .media&gt;img{height:32px;width:32px}.steam .media .about{flex-grow:1}.steam .media .name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#58a6ff}.steam .media .infos{font-size:12px;color:#666;align-items:center}.steam .media .infos&gt;div{display:inline-flex;align-items:center;margin-right:16px}.steam .media .infos svg{fill:currentColor;height:12px;width:12px;margin:0 4px 0 0}.steam .media .achievement img{height:22px;width:22px;margin-right:6px}.steam .media .achievement .name,.steam .media .infos{display:flex;justify-content:space-between}.steam .media .achievement .name&gt;div:first-child{max-width:280px}.steam .media .achievement .description{overflow:hidden;text-overflow:ellipsis;display:block;width:344px;max-height:38px;font-size:12px;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.steam .media .achievement .unlocked{font-size:12px;color:#666;font-style:italic;flex-shrink:0}.achievement{display:flex;margin:4px 0}.achievement .icon{margin:0 4px;width:44px;height:44px}.achievement .text{font-size:12px;color:#666}.achievement .title{font-size:14px;color:#58a6ff}.achievement .gauge.info{color:#58a6ff}.achievement .value{background-color:#58a6ff26}.achievement.x .title{color:#666}.achievement.x .gauge.info{color:#b0b0b0}.achievement.x .value{background-color:#b0b0b026}.achievement.b .title{color:#9d8fff}.achievement.b .gauge.info{color:#9e91ff}.achievement.b .value{background-color:#9e91ff26}.achievement.a .title{color:#d79533}.achievement.a .gauge.info{color:#e7bd69}.achievement.a .value{background-color:#e7bd6926}.achievement.s .gauge.info,.achievement.s .title{color:#eb355e}.achievement.s .value{background-color:#eb355e26}.achievement.secret .title{color:#ff76cd}.achievement.secret .gauge.info{color:#ff79d1}.achievement.secret .value{background-color:#ff79d126}.achievement .gh,.achievement .value{border:1px solid currentColor;border-radius:16px;font-size:10px;padding:0 5px;white-space:nowrap}.achievement .gauge-arc,.achievement .gauge-base{stroke-width:6}.achievement .value-wrapper{margin-bottom:-50px;margin-top:36px;display:none}.achievement .value{margin-left:46px}.achievements.compact{display:flex;flex-wrap:wrap}.achievements.compact .achievement{flex-direction:column-reverse;align-items:center;width:80px}#metrics-end,.achievements.compact .info{width:100%}.achievements.compact .achievement .title{margin-bottom:2px;text-transform:capitalize;text-align:center}.achievements.compact .achievement .title .prefix{min-height:13px;font-size:10px;display:block;margin-bottom:-.25rem}.achievements.compact .achievement .value-wrapper{display:flex}.achievements.compact .achievement .gh,.achievements.compact .achievement .text{display:none}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}span.code{margin:0 4px -3px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}.gauge text,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.margin-bottom{margin-bottom:16px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.gauge{stroke-linecap:round;fill:none}.gauge.info{color:#58a6ff}.gauge-arc,.gauge-base{stroke:currentColor;stroke-width:10}.gauge-base{stroke-opacity:.2}.gauge-arc{fill:none;stroke-dashoffset:0;animation-delay:250ms;animation:animation-gauge 1s ease forwards}.gauge text{font-size:40px;font-family:monospace;text-anchor:middle;font-weight:600}.gauge .title{font-size:18px;color:#777}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry,.repository{display:flex;flex-direction:column}.chart-bars .entry{flex-grow:1;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars .entry .bottom{margin-bottom:-1rem;line-height:1rem}.repository{width:100%;margin:6px 0}.repository .name{display:flex;align-items:center;justify-content:space-between;width:440px}.repository .name span:first-child{color:#58a6ff}.repository .name span:last-child{color:#666;font-size:10px}.repository .description{display:block;width:440px;white-space:normal}.repository .description,.repository .infos{color:#666;margin-left:38px;font-size:13px}.repository .infos&gt;div{display:flex;align-items:center;margin-right:16px}.repository .infos svg{margin:0 4px 0 0}.steam .games{margin-left:28px}.steam .media{display:flex;margin-bottom:4px;width:450px}.steam .media img{margin:0 10px;border-radius:7px}.steam .media&gt;img{height:32px;width:32px}.steam .media .about{flex-grow:1}.steam .media .name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#58a6ff}.steam .media .infos{font-size:12px;color:#666;align-items:center}.steam .media .infos&gt;div{display:inline-flex;align-items:center;margin-right:16px}.steam .media .infos svg{fill:currentColor;height:12px;width:12px;margin:0 4px 0 0}.steam .media .achievement img{height:22px;width:22px;margin-right:6px}.steam .media .achievement .name,.steam .media .infos{display:flex;justify-content:space-between}.steam .media .achievement .name&gt;div:first-child{max-width:280px}.steam .media .achievement .description{overflow:hidden;text-overflow:ellipsis;display:block;width:344px;max-height:38px;font-size:12px;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.steam .media .achievement .unlocked{font-size:12px;color:#666;font-style:italic;flex-shrink:0}.steam .media .achievement .ellipsis{margin-left:18px}.achievement{display:flex;margin:4px 0}.achievement .icon{margin:0 4px;width:44px;height:44px}.achievement .text{font-size:12px;color:#666}.achievement .title{font-size:14px;color:#58a6ff}.achievement .gauge.info{color:#58a6ff}.achievement .value{background-color:#58a6ff26}.achievement.x .title{color:#666}.achievement.x .gauge.info{color:#b0b0b0}.achievement.x .value{background-color:#b0b0b026}.achievement.b .title{color:#9d8fff}.achievement.b .gauge.info{color:#9e91ff}.achievement.b .value{background-color:#9e91ff26}.achievement.a .title{color:#d79533}.achievement.a .gauge.info{color:#e7bd69}.achievement.a .value{background-color:#e7bd6926}.achievement.s .gauge.info,.achievement.s .title{color:#eb355e}.achievement.s .value{background-color:#eb355e26}.achievement.secret .title{color:#ff76cd}.achievement.secret .gauge.info{color:#ff79d1}.achievement.secret .value{background-color:#ff79d126}.achievement .gh,.achievement .value{border:1px solid currentColor;border-radius:16px;font-size:10px;padding:0 5px;white-space:nowrap}.achievement .gauge-arc,.achievement .gauge-base{stroke-width:6}.achievement .value-wrapper{margin-bottom:-50px;margin-top:36px;display:none}.achievement .value{margin-left:46px}.achievements.compact{display:flex;flex-wrap:wrap}.achievements.compact .achievement{flex-direction:column-reverse;align-items:center;width:80px}#metrics-end,.achievements.compact .info{width:100%}.achievements.compact .achievement .title{margin-bottom:2px;text-transform:capitalize;text-align:center}.achievements.compact .achievement .title .prefix{min-height:13px;font-size:10px;display:block;margin-bottom:-.25rem}.achievements.compact .achievement .value-wrapper{display:flex}.achievements.compact .achievement .gh,.achievements.compact .achievement .text{display:none}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}span.code{margin:0 4px -3px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -33,76 +33,76 @@
                         <h3>Total stargazers</h3>
                         <div class="chart-bars">
                             <div class="entry">
-                                <span class="value">908</span>
+                                <span class="value">909</span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                29
+                                30
                                 <div class="bottom">Apr.</div>
                             </div>
                             <div class="entry">
-                                <span class="value">910</span>
-                                <div class="bar" style="height: 6.458333333333332px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                30
-                            </div>
-                            <div class="entry">
-                                <span class="value">913</span>
-                                <div class="bar" style="height: 12.395833333333334px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">912</span>
+                                <div class="bar" style="height: 7.98076923076923px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 1
                                 <div class="bottom">May</div>
                             </div>
                             <div class="entry">
-                                <span class="value">916</span>
-                                <div class="bar" style="height: 18.333333333333332px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">915</span>
+                                <div class="bar" style="height: 13.461538461538462px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 2
                             </div>
                             <div class="entry">
-                                <span class="value">919</span>
-                                <div class="bar" style="height: 24.27083333333333px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">918</span>
+                                <div class="bar" style="height: 18.94230769230769px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 3
                             </div>
                             <div class="entry">
-                                <span class="value">921</span>
-                                <div class="bar" style="height: 28.229166666666668px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <span class="value">920</span>
+                                <div class="bar" style="height: 22.596153846153843px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 4
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
-                                <div class="bar" style="height: 28.229166666666668px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <div class="bar" style="height: 22.596153846153843px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 5
                             </div>
                             <div class="entry">
-                                <span class="value">924</span>
-                                <div class="bar" style="height: 34.166666666666664px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <span class="value">923</span>
+                                <div class="bar" style="height: 28.076923076923077px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 6
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
-                                <div class="bar" style="height: 34.166666666666664px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <div class="bar" style="height: 28.076923076923077px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 7
                             </div>
                             <div class="entry">
-                                <span class="value">925</span>
-                                <div class="bar" style="height: 36.145833333333336px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <span class="value">924</span>
+                                <div class="bar" style="height: 29.90384615384616px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 8
                             </div>
                             <div class="entry">
-                                <span class="value">927</span>
-                                <div class="bar" style="height: 40.10416666666667px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value">926</span>
+                                <div class="bar" style="height: 33.55769230769231px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 9
                             </div>
                             <div class="entry">
-                                <span class="value">930</span>
-                                <div class="bar" style="height: 46.041666666666664px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value">929</span>
+                                <div class="bar" style="height: 39.03846153846154px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 10
                             </div>
                             <div class="entry">
-                                <span class="value">931</span>
-                                <div class="bar" style="height: 48.02083333333333px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value">930</span>
+                                <div class="bar" style="height: 40.86538461538461px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 11
                             </div>
                             <div class="entry">
-                                <span class="value">932</span>
-                                <div class="bar" style="height: 49.99999999999999px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value">935</span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 12
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                13
                             </div>
                         </div>
                     </section>
@@ -110,35 +110,30 @@
                         <h3>New stargazers per day</h3>
                         <div class="chart-bars">
                             <div class="entry">
-                                <span class="value">+1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                29
+                                <span class="value">+2</span>
+                                <div class="bar" style="height: 20px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                30
                                 <div class="bottom">Apr.</div>
                             </div>
                             <div class="entry">
-                                <span class="value">+2</span>
-                                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
-                                30
-                            </div>
-                            <div class="entry">
                                 <span class="value">+3</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 30px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 1
                                 <div class="bottom">May</div>
                             </div>
                             <div class="entry">
                                 <span class="value">+3</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 30px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 2
                             </div>
                             <div class="entry">
                                 <span class="value">+3</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 30px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 3
                             </div>
                             <div class="entry">
                                 <span class="value">+2</span>
-                                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <div class="bar" style="height: 20px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 4
                             </div>
                             <div class="entry">
@@ -148,7 +143,7 @@
                             </div>
                             <div class="entry">
                                 <span class="value">+3</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 30px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 6
                             </div>
                             <div class="entry">
@@ -158,28 +153,33 @@
                             </div>
                             <div class="entry">
                                 <span class="value">+1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 10px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 8
                             </div>
                             <div class="entry">
                                 <span class="value">+2</span>
-                                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <div class="bar" style="height: 20px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 9
                             </div>
                             <div class="entry">
                                 <span class="value">+3</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 30px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                                 10
                             </div>
                             <div class="entry">
                                 <span class="value">+1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 10px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 11
                             </div>
                             <div class="entry">
-                                <span class="value">+1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">+5</span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 12
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                13
                             </div>
                         </div>
                     </section>
@@ -306,7 +306,7 @@
                                 <div class="title">
                                     <span class="prefix">Super</span>
                                     developer
-                                    <span class="gh">ranked 900k out of 218m users</span>
+                                    <span class="gh">ranked 901k out of 218m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">52</div>
                                     </div>
@@ -324,7 +324,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="3.394934976043799 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="3.6071184120465336 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -899,15 +899,15 @@
                     </h2>
                     <div class="medias largeable-flex-wrap">
                         <div class="media largeable-width-half">
-                            <img src="data:image/jpg;base64,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" alt="" />
+                            <img src="data:image/jpg;base64,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" alt="" />
                             <div class="about">
-                                <div class="name">Hacknet</div>
+                                <div class="name">Fallout 4</div>
                                 <div class="infos">
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/>
                                         </svg>
-                                        Indie, Simulation
+                                        RPG
                                     </div>
                                 </div>
                                 <div class="infos">
@@ -915,7 +915,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z"/>
                                         </svg>
-                                        2 hours played
+                                        62 hours played
                                     </div>
                                 </div>
                                 <div class="infos">
@@ -923,7 +923,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path d="M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 0 1 4.75 0ZM2.5 7.5v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V7.5Zm10.75-4H2.75a.25.25 0 0 0-.25.25V6h11V3.75a.25.25 0 0 0-.25-.25Z"/>
                                         </svg>
-                                        Last played on 7 May 2026
+                                        Last played on 12 May 2026
                                     </div>
                                 </div>
                                 <div class="achievements">
@@ -932,17 +932,32 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                                 <path d="M3.217 6.962A3.75 3.75 0 0 1 0 3.25v-.5C0 1.784.784 1 1.75 1h1.356c.228-.585.796-1 1.462-1h6.864c.647 0 1.227.397 1.462 1h1.356c.966 0 1.75.784 1.75 1.75v.5a3.75 3.75 0 0 1-3.217 3.712 5.014 5.014 0 0 1-2.771 3.117l.144 1.446c.005.05.03.12.114.204.086.087.217.17.373.227.283.103.618.274.89.568.285.31.467.723.467 1.226v.75h1.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H4v-.75c0-.503.182-.916.468-1.226.27-.294.606-.465.889-.568.139-.048.266-.126.373-.227.084-.085.109-.153.114-.204l.144-1.446a5.015 5.015 0 0 1-2.77-3.117ZM4.5 1.568V5.5a3.5 3.5 0 1 0 7 0V1.568a.068.068 0 0 0-.068-.068H4.568a.068.068 0 0 0-.068.068Zm2.957 8.902-.12 1.204c-.093.925-.858 1.47-1.467 1.691a.766.766 0 0 0-.3.176c-.037.04-.07.093-.07.21v.75h5v-.75c0-.117-.033-.17-.07-.21a.766.766 0 0 0-.3-.176c-.609-.221-1.374-.766-1.466-1.69l-.12-1.204a5.064 5.064 0 0 1-1.087 0ZM13 2.5v2.872a2.25 2.25 0 0 0 1.5-2.122v-.5a.25.25 0 0 0-.25-.25H13Zm-10 0H1.75a.25.25 0 0 0-.25.25v.5c0 .98.626 1.813 1.5 2.122Z"/>
                                             </svg>
-                                            1 / 11 achievements unlocked
+                                            23 / 84 achievements unlocked
                                         </div>
                                     </div>
                                     <div class="achievement">
-                                        <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAgACADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABwYFCP/EAC0QAAEDAwMCBAUFAAAAAAAAAAECAwQFBhEAEiEHIhNBUXEUFTFSYTIzgZGj/8QAGQEAAgMBAAAAAAAAAAAAAAAAAgMBBAUG/8QAJREAAQIEBgMBAQAAAAAAAAAAAQIEAAMRIQUSE0FRYRQxoULB/9oADAMBAAIRAxEAPwACsK2UXLPfjl7YtpAcS2Dguc4IB2nH9HV6303t/hE6ZUIL2MluSpKP5B2YUPyDqCsO3XLjqT0aLNEOY014rKiD3KBAxxz9PTTla0Grtw6Mxc6A7NbmPoClISoLQGlbTnZz7nn11z2NO5reYdOdSn59H0TUbEWvxGuwkImpGdFe9vfyICrdNaIIp+WV5pEgcj4h1KkH8dqQR76NazSZNKkFqUls/attYWlQ9QRppuK+JFPrk6nt2sh5uM6ptLwb/WB5/t6PL9uRyuxorTtJTT/CWpY7cFeRj7RqxhUzECU64qhV6kpqLdXhT1DUA6ZoodGM+yrcmXC9LFNdQiVFbDqEqyN3OOCBwdN1kqqwptERcCHhOamPoPjN920NK287Tn3ydc4wpb8N9D8V5xl5HKVoOCNIFJ6ozmTENViNzFRlqUlbYS2pWUFOD2keec6LGWTl2kplgKTtsoWIseDEMHEmSaqJB+G8VN19V6jSbgqNOap0NbcZ5TSVLJBIHmRjRte12SLqkRnZUdlgsJUkBrzyc88atJHVmG6STbyCo8klTRJ/z1IXpdUe4WI7bFNTDLSyskFHdkYx2pGl4a08daD4uQgXVmB247g3bjVSoa1RxT+x/9k=" alt="" />
+                                        <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAgACADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAABgUEAwf/xAAsEAABAwMEAQIEBwAAAAAAAAABAgMEBQYRABIhMUETIgcVI1EUMlJhgZGh/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAIDBP/EAB8RAAICAgIDAQAAAAAAAAAAAAECABEDIRITIjFB8P/aAAwDAQACEQMRAD8Ai2zHoUG36EK9TKGoTIzXovKhoCyrYkkOEg5Jz+bznnB1qv8Ah0CjUgCDRqUia8sJQ+YDakJAwVEkjAJHX863UimtViw6EhTLbkhunNttbzgAKbSFA8EcjyQdDZtXl23UYqRL9UxnVFUV1J2tYPRSrjaQTtBzwc8aQDkdzVkfrTXo/f32dLQpaZL7X4ui0qTBkuKAedioQcpTlQawkbgPbnoDIx51fuWz6ExbVdl/LIgcVEccYAZSn0lIbPuTgA9/7qPcF/Sa58saVvjQ2MENl3eW1D2704AxhOAE5/UTyrTi7SU2VWS46HnVU57c4BgK+keQPA/bT21CxVyeIBuW7qSLLcTULPp0faTEMBlsvNu4KlbcKSMcpIx3oz8VTGXV4bTbSEutspLjgHuVk4SCfOANKrOqdDatKitruCitOphshbS5aEKSrYMggng571BumHTahcbL8Wp0l1CgkPrNWjJbUOuMryMDOdXQKWBYyGVz1kLuH7Xp8OtVNiBMCY+0LUHm0/Uf87CScDAzg4z4+2vSLw2ptCspQMITAeSkfYBsgaAxqbTqddzEZ64KcqOg+s3Jjy2SCByAVbyAeMEd/wB6VXdcNFdtisstVimrdchvJShElCiolBwAAe9DAX7hhPiQRU//2Q==" alt="" />
                                         <div>
                                             <div class="name">
-                                                <div>Entropy</div>
-                                                <div class="unlocked">20 May 2025</div>
+                                                <div>Unlikely Valentine</div>
+                                                <div class="unlocked">25 Feb 2025</div>
                                             </div>
-                                            <div class="description">Be granted an account within Entropy</div>
+                                            <div class="description"></div>
+                                        </div>
+                                    </div>
+                                    <div class="achievement">
+                                        <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAgACADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgUCCP/EAC8QAAIBBAEDAwIDCQAAAAAAAAECAwQFBhEhABITBzFBFCIVUmEWIzJRU3GBkcL/xAAXAQADAQAAAAAAAAAAAAAAAAADBAUC/8QAJREAAQMBBwUBAAAAAAAAAAAAAQIDEQAEBRIhMUFhUYGhsfDx/9oADAMBAAIRAxEAPwBDg9rsEuD488uLY5LM1vgLzS22N3dvGu2Ykck+5PVcY/j0ra/ZiwDf9O2QD/nqPgsvkxXF6OMyq8lugZmji8jAePYAHts9re/A0ffjqvOauioKaulEv0srj7J4+6QAuF7SV1o/cPuYfH68rO2xtKy1BnqAYk7fabkURKCRNEc9suK0VfZIay12ulopnlMn09LGsjsqjtH2LsjZ+OifjxYWfKrdBZYe76GpqbfVTUSbAWIllEn5geR8/wBumPqZAktdaquo7Fjg8kLuqbaKOQdpcHRChT286PuT8dDcst1dJaqmqinapq/w56wlFIpxTNEyF+4ngkAhEChtHZ/RZSlocSzh75/RRQAU4qc4dUUdstGCXKvnmjhjooVaOHTNIfGCh7Pdgu3J1yASekuX1r22wVVXVQUklPJTSCnlhmJjm8rFkKA7JkHd77CgMx3rQ654s+SpDT2moe7Rx1tNBEkLiUK0IRRoD8utf5PvvpvleR2mvxTHpae62lbhViRK9IZIkYsr/uy4H8K8k9vC7517arv3dheaJIhZg56ZE+hkesDmpSbyJQ4EoMp0529+KqY7fb1f80VqXxpG8TRvC0InRINgngjliwXnjnXwOneZY3cE9PMqqZoym7fVTzSS6VpG8bEntH+hwNcdI8Ku3ptiFt+ltuU4/wCVtGaoe4wtJKw+Se72/kBwOs+pme4hWenOU01JlFjnqJrXUxxxR10TM7GJgFADbJJ+Ot2hxtbmJpMDTnvRbMhxtuHVSTn+V//Z" alt="" />
+                                        <div>
+                                            <div class="name">
+                                                <div>What's Yours Is Mine</div>
+                                                <div class="unlocked">24 Feb 2025</div>
+                                            </div>
+                                            <div class="description"></div>
+                                        </div>
+                                    </div>
+                                    <div class="achievement">
+                                        <div>
+                                            <div class="description ellipsis">+21 others...</div>
                                         </div>
                                     </div>
                                 </div>
