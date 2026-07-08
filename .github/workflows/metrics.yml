@@ -49,7 +49,7 @@ jobs:
           plugin_steam_sections: recently-played
           
           plugin_lines: yes
-          plugin_lines_sections: base, repositories, history
+          plugin_lines_sections: base,repositories,history
 
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
