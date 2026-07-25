@@ -5,16 +5,16 @@
 <table width="100%">
 <tr>
 <td valign="top" width="50%" align="center">
-  <img src="github-metrics-terminal.svg" alt="Metrics - Whoami" />
-  <br><br>
-  <img src="https://my-github-stats-lilac.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" alt="stats graph" />
-  <br><br>
-  <img src="https://my-github-stats-lilac.vercel.app/api/top-langs/?username=anka-afk&layout=compact&hide_border=true&theme=ambient_gradient" alt="languages graph" />
-  <br><br>
-  <img src="github-metrics-left.svg" alt="Metrics - Left" />
+<img src="github-metrics-terminal.svg" alt="Metrics - Whoami" />
+<br><br>
+<img src="https://my-github-stats-lilac.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" alt="stats graph" />
+<br><br>
+<img src="https://my-github-stats-lilac.vercel.app/api/top-langs/?username=anka-afk&layout=compact&hide_border=true&theme=ambient_gradient" alt="languages graph" />
+<br><br>
+<img src="github-metrics-achievements.svg" alt="Metrics - Achievements" />
 </td>
 <td valign="top" width="50%" align="center">
-  <img src="github-metrics-right.svg" alt="Metrics - Right" />
+<img src="github-metrics-plugins.svg" alt="Metrics - Plugins" />
 </td>
 </tr>
 </table>
