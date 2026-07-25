@@ -5,14 +5,20 @@
 <table width="100%">
 <tr>
 <td valign="top" width="50%" align="center">
-<img src="github-metrics-terminal.svg" alt="Metrics - Whoami" />
-<br><br>
-<img src="https://my-github-stats-lilac.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" alt="stats graph" />
-<br><br>
-<img src="https://my-github-stats-lilac.vercel.app/api/top-langs/?username=anka-afk&layout=compact&hide_border=true&theme=ambient_gradient" alt="languages graph" />
+  <img src="github-metrics-terminal.svg" alt="Metrics - Whoami" />
+  <br><br>
+  <img src="https://my-github-stats-lilac.vercel.app/api?username=anka-afk&show_icons=true&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" alt="stats graph" />
+  <br><br>
+  <img src="https://my-github-stats-lilac.vercel.app/api/top-langs/?username=anka-afk&layout=compact&hide_border=true&theme=ambient_gradient" alt="languages graph" />
+  <br><br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anka-afk/anka-afk/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anka-afk/anka-afk/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/anka-afk/anka-afk/output/github-contribution-grid-snake.svg">
+  </picture>
 </td>
 <td valign="top" width="50%" align="center">
-<img src="github-metrics-plugins.svg?t=202407221501" alt="Metrics - Plugins" />
+  <img src="github-metrics-plugins.svg?t=202407221501" alt="Metrics - Plugins" />
 </td>
 </tr>
 </table>
