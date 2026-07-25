@@ -23,33 +23,38 @@ jobs:
           plugin_languages: no
           plugin_projects: no
 
-      - name: Generate Compact Plugins Content
+      - name: Generate Left Plugins
         uses: dkhokhlov/metrics@master
         with:
-          filename: github-metrics-plugins.svg
+          filename: github-metrics-left.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: anka-afk
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
-          
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: C
-          
+          plugin_steam: yes
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam_user: "76561198807374746"
+          plugin_steam_sections: recently-played
+
+      - name: Generate Right Plugins
+        uses: dkhokhlov/metrics@master
+        with:
+          filename: github-metrics-right.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: anka-afk
+          template: classic
+          base: ""
+          config_timezone: Asia/Shanghai
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: no
-          
-          plugin_steam: yes
-          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          plugin_steam_user: "76561198807374746"
-          plugin_steam_sections: recently-played
-          
           plugin_lines: yes
           plugin_lines_sections: repositories,history
-
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
