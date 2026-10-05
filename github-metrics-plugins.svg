@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="972" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="409" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.margin-bottom{margin-bottom:16px}.margin-lr-auto{margin-left:auto;margin-right:auto}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars .entry .bottom{margin-bottom:-1rem;line-height:1rem}.diff-handle{color:#58a6ff;max-width:200px;text-overflow:ellipsis;overflow:hidden}.diff-box{display:inline-block;width:8px;height:8px;margin-left:1px;background-color:rgba(110,118,129,.4);border:1px solid rgba(246,240,251,.1)}.diff-box:first-child{margin-left:9px}.diff-box.added{background-color:#3fb950}.diff-box.deleted{background-color:#da3633}.diff-stats{margin-left:4px;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;font-weight:700;font-size:12px;white-space:nowrap}.added{color:#3fb950}.deleted{color:#da3633}.steam .games{margin-left:28px}.steam .media{display:flex;margin-bottom:4px;width:450px}.steam .media img{margin:0 10px;border-radius:7px}.steam .media&gt;img{height:32px;width:32px}.steam .media .about{flex-grow:1}.steam .media .name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#58a6ff}.steam .media .infos{font-size:12px;color:#666;align-items:center}.steam .media .infos&gt;div{display:inline-flex;align-items:center;margin-right:16px}.steam .media .infos svg{fill:currentColor;height:12px;width:12px;margin:0 4px 0 0}.steam .media .achievement img{height:22px;width:22px;margin-right:6px}.steam .media .achievement .name,.steam .media .infos{display:flex;justify-content:space-between}.steam .media .achievement .name&gt;div:first-child{max-width:280px}.steam .media .achievement .description{overflow:hidden;text-overflow:ellipsis;display:block;width:344px;max-height:38px;font-size:12px;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.steam .media .achievement .unlocked{font-size:12px;color:#666;font-style:italic;flex-shrink:0}.steam .media .achievement .ellipsis{margin-left:18px}.achievement{display:flex;margin:4px 0}.achievement .text{font-size:12px;color:#666}.achievement .value{background-color:#58a6ff26;border:1px solid currentColor;border-radius:16px;font-size:10px;padding:0 5px;white-space:nowrap;margin-left:46px}.achievement.x .value{background-color:#b0b0b026}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}span.code{margin:0 4px -3px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.margin-bottom{margin-bottom:16px}svg.bar{margin:4px 0}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;display:flex;flex-direction:column;align-items:center;font-size:10px;color:#666}.chart-bars .entry .value{font-size:6px}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.chart-bars .entry .bottom{margin-bottom:-1rem;line-height:1rem}.steam .games{margin-left:28px}.steam .media{display:flex;margin-bottom:4px;width:450px}.steam .media img{margin:0 10px;border-radius:7px}.steam .media&gt;img{height:32px;width:32px}.steam .media .about{flex-grow:1}.steam .media .infos,.steam .media .name{display:flex;align-items:center;justify-content:space-between}.steam .media .name{font-size:14px;line-height:14px;color:#58a6ff}.steam .media .infos{font-size:12px;color:#666}.steam .media .infos&gt;div{display:inline-flex;align-items:center;margin-right:16px}.steam .media .infos svg{fill:currentColor;height:12px;width:12px;margin:0 4px 0 0}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}span.code{margin:0 4px -3px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -15,154 +15,9 @@
                 </h2>
                 <div class="row">
                     <section>
-                        <div class="field">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <span class="diff-handle">anka-afk/Anka--Notes</span>
-                        </div>
-                        <div class="field">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <span class="diff-handle">anka-afk/sowing_discord_center</span>
-                        </div>
-                        <div class="field">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <span class="diff-handle">anka-afk/blue-fat-fish-meme-pack</span>
-                        </div>
-                        <div class="field">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <span class="diff-handle">anka-afk/congyu-meme-pack</span>
-                        </div>
                     </section>
                     <section>
-                        <div class="field">
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box deleted"></div>
-                            <div class="diff-box deleted"></div>
-                            <div class="diff-stats">
-                                <span class="added"> +3.50m</span>
-                                <span class="deleted"> -2.13m</span>
-                            </div>
-                            <span> </span>
-                        </div>
-                        <div class="field">
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box deleted"></div>
-                            <div class="diff-stats">
-                                <span class="added"> +7.53k</span>
-                                <span class="deleted">   -198</span>
-                            </div>
-                            <span> </span>
-                        </div>
-                        <div class="field">
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box deleted"></div>
-                            <div class="diff-stats">
-                                <span class="added"> +2.36k</span>
-                                <span class="deleted">     -1</span>
-                            </div>
-                            <span> </span>
-                        </div>
-                        <div class="field">
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box deleted"></div>
-                            <div class="diff-stats">
-                                <span class="added">   +632</span>
-                                <span class="deleted">     -1</span>
-                            </div>
-                            <span> </span>
-                        </div>
                     </section>
-                </div>
-                <div class="row margin-bottom">
-                    <h3 class="margin-lr-auto">Diff history</h3>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="480" height="315">
-                        <g transform="translate(0,276)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
-                            <path class="domain" stroke="currentColor" d="M39.5,6V0.5H441.5V6"/>
-                            <g class="tick" opacity="1" transform="translate(94.16349206349207,0)">
-                                <line stroke="currentColor" y2="6"/>
-                                <text fill="currentColor" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">April</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(152.23015873015873,0)">
-                                <line stroke="currentColor" y2="6"/>
-                                <text fill="currentColor" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">July</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(210.93492063492064,0)">
-                                <line stroke="currentColor" y2="6"/>
-                                <text fill="currentColor" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">October</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(269.63968253968255,0)">
-                                <line stroke="currentColor" y2="6"/>
-                                <text fill="currentColor" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">2026</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(327.068253968254,0)">
-                                <line stroke="currentColor" y2="6"/>
-                                <text fill="currentColor" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">April</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(385.13492063492066,0)">
-                                <line stroke="currentColor" y2="6"/>
-                                <text fill="currentColor" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">July</text>
-                            </g>
-                        </g>
-                        <g transform="translate(39,0)" fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
-                            <path class="domain" stroke="currentColor" d="M-6,5.5H0.5V276.5H-6"/>
-                            <g class="tick" opacity="1" transform="translate(0,12.359894429669804)">
-                                <line stroke="currentColor" x2="-6"/>
-                                <text fill="currentColor" x="-9" dy="0.32em">800k</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(0,44.51992082225237)">
-                                <line stroke="currentColor" x2="-6"/>
-                                <text fill="currentColor" x="-9" dy="0.32em">600k</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(0,76.67994721483491)">
-                                <line stroke="currentColor" x2="-6"/>
-                                <text fill="currentColor" x="-9" dy="0.32em">400k</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(0,108.83997360741745)">
-                                <line stroke="currentColor" x2="-6"/>
-                                <text fill="currentColor" x="-9" dy="0.32em">200k</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(0,141)">
-                                <line stroke="currentColor" x2="-6"/>
-                                <text fill="currentColor" x="-9" dy="0.32em">0.0</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(0,173.16002639258255)">
-                                <line stroke="currentColor" x2="-6"/>
-                                <text fill="currentColor" x="-9" dy="0.32em">−200k</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(0,205.3200527851651)">
-                                <line stroke="currentColor" x2="-6"/>
-                                <text fill="currentColor" x="-9" dy="0.32em">−400k</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(0,237.48007917774765)">
-                                <line stroke="currentColor" x2="-6"/>
-                                <text fill="currentColor" x="-9" dy="0.32em">−600k</text>
-                            </g>
-                            <g class="tick" opacity="1" transform="translate(0,269.64010557033015)">
-                                <line stroke="currentColor" x2="-6"/>
-                                <text fill="currentColor" x="-9" dy="0.32em">−800k</text>
-                            </g>
-                        </g>
-                        <path d="M39,140.5L43.467,140.5L47.933,140.5L52.4,140.5L61.333,140.5L65.8,140.5L70.267,140.5L74.733,140.5L79.2,140.5L83.667,140.5L88.133,140.5L92.6,140.5L97.067,140.5L101.533,140.5L106,140.5L110.467,140.5L114.933,140.5L119.4,140.5L123.867,140.5L128.333,140.5L137.267,140.5L146.2,140.5L150.667,140.5L177.467,140.5L186.4,140.5L190.867,140.5L195.333,140.5L199.8,140.5L204.267,140.5L208.733,140.5L213.2,140.5L217.667,140.5L226.6,140.5L231.067,140.5L244.467,140.5L248.933,140.5L253.4,140.5L284.667,140.5L289.133,140.5L293.6,140.5L302.533,140.5L307,140.5L315.933,140.5L320.4,140.5L329.333,140.5L360.6,140.5L369.533,140.5L382.933,140.5L387.4,140.5L396.333,140.5L400.8,140.5L409.733,140.5L423.133,140.5L427.6,140.5L432.067,140.5L436.533,140.5L441,140.5L441,140.207L436.533,140.486L432.067,140.116L427.6,139.088L423.133,5L409.733,140.498L400.8,140.321L396.333,140.465L387.4,140.372L382.933,140.489L369.533,140.468L360.6,140.413L329.333,140.492L320.4,139.685L315.933,140.428L307,140.489L302.533,140.496L293.6,140.495L289.133,140.493L284.667,140.491L253.4,140.475L248.933,140.493L244.467,140.426L231.067,140.487L226.6,140.492L217.667,140.254L213.2,140.324L208.733,140.469L204.267,140.494L199.8,41.522L195.333,139.786L190.867,140.492L186.4,140.463L177.467,139.726L150.667,139.953L146.2,140.346L137.267,140.385L128.333,140.466L123.867,140.499L119.4,140.284L114.933,140.488L110.467,140.433L106,140.287L101.533,140.247L97.067,35.087L92.6,134.891L88.133,139.995L83.667,139.63L79.2,140.444L74.733,140.485L70.267,140.229L65.8,140.392L61.333,140.241L52.4,140.5L47.933,140.272L43.467,140.379L39,138.519Z" fill="rgb(63, 185, 80)"/>
-                        <path d="M39,140.5L43.467,140.5L47.933,140.5L52.4,140.5L61.333,140.5L65.8,140.5L70.267,140.5L74.733,140.5L79.2,140.5L83.667,140.5L88.133,140.5L92.6,140.5L97.067,140.5L101.533,140.5L106,140.5L110.467,140.5L114.933,140.5L119.4,140.5L123.867,140.5L128.333,140.5L137.267,140.5L146.2,140.5L150.667,140.5L177.467,140.5L186.4,140.5L190.867,140.5L195.333,140.5L199.8,140.5L204.267,140.5L208.733,140.5L213.2,140.5L217.667,140.5L226.6,140.5L231.067,140.5L244.467,140.5L248.933,140.5L253.4,140.5L284.667,140.5L289.133,140.5L293.6,140.5L302.533,140.5L307,140.5L315.933,140.5L320.4,140.5L329.333,140.5L360.6,140.5L369.533,140.5L382.933,140.5L387.4,140.5L396.333,140.5L400.8,140.5L409.733,140.5L423.133,140.5L427.6,140.5L432.067,140.5L436.533,140.5L441,140.5L441,140.52L436.533,140.509L432.067,140.596L427.6,140.535L423.133,247.421L409.733,140.502L400.8,140.512L396.333,140.513L387.4,140.859L382.933,140.501L369.533,140.5L360.6,140.515L329.333,140.507L320.4,145.709L315.933,140.52L307,140.513L302.533,140.501L293.6,140.503L289.133,140.503L284.667,140.501L253.4,140.51L248.933,140.501L244.467,140.52L231.067,140.502L226.6,140.517L217.667,140.581L213.2,140.529L208.733,140.503L204.267,140.508L199.8,239.405L195.333,148.313L190.867,140.507L186.4,140.537L177.467,140.9L150.667,140.524L146.2,140.547L137.267,140.518L128.333,140.513L123.867,140.501L119.4,140.512L114.933,140.511L110.467,140.526L106,140.535L101.533,140.516L97.067,234.168L92.6,147.358L88.133,140.726L83.667,140.581L79.2,140.532L74.733,140.516L70.267,140.532L65.8,140.54L61.333,140.564L52.4,140.5L47.933,140.519L43.467,140.515L39,140.792Z" fill="rgb(218, 54, 51)"/>
-                    </svg>
                 </div>
             </section>
             <section class="habits">
@@ -171,7 +26,7 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 128 commits)</small>
+                    <small class="h-details">(computed from last 129 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
@@ -192,76 +47,76 @@
                         <h3>Total stargazers</h3>
                         <div class="chart-bars">
                             <div class="entry">
-                                <span class="value">1.10k</span>
+                                <span class="value"></span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                21
+                                22
                                 <div class="bottom">Sep.</div>
                             </div>
                             <div class="entry">
-                                <span class="value">1.10k</span>
-                                <div class="bar" style="height: 5.46875px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                22
-                            </div>
-                            <div class="entry">
-                                <span class="value">1.10k</span>
-                                <div class="bar" style="height: 14.374999999999998px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 23
                             </div>
                             <div class="entry">
-                                <span class="value">1.10k</span>
-                                <div class="bar" style="height: 17.34375px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 24
                             </div>
                             <div class="entry">
-                                <span class="value">1.10k</span>
-                                <div class="bar" style="height: 20.312499999999996px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 25
                             </div>
                             <div class="entry">
-                                <span class="value">1.10k</span>
-                                <div class="bar" style="height: 23.281249999999996px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 26
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
-                                <div class="bar" style="height: 23.281249999999996px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 27
                             </div>
                             <div class="entry">
-                                <span class="value">1.10k</span>
-                                <div class="bar" style="height: 29.21875px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 28
                             </div>
                             <div class="entry">
-                                <span class="value">1.11k</span>
-                                <div class="bar" style="height: 32.1875px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 29
                             </div>
                             <div class="entry">
-                                <span class="value">1.11k</span>
-                                <div class="bar" style="height: 41.09375px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 30
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
-                                <div class="bar" style="height: 41.09375px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 1
                                 <div class="bottom">Oct.</div>
                             </div>
                             <div class="entry">
-                                <span class="value">1.11k</span>
-                                <div class="bar" style="height: 44.0625px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 2
                             </div>
                             <div class="entry">
-                                <span class="value">1.11k</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 3
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 4
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                5
                             </div>
                         </div>
                     </section>
@@ -269,34 +124,29 @@
                         <h3>New stargazers per day</h3>
                         <div class="chart-bars">
                             <div class="entry">
-                                <span class="value">+1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                21
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                22
                                 <div class="bottom">Sep.</div>
                             </div>
                             <div class="entry">
-                                <span class="value">+1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                22
-                            </div>
-                            <div class="entry">
-                                <span class="value">+3</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 23
                             </div>
                             <div class="entry">
-                                <span class="value">+1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 24
                             </div>
                             <div class="entry">
-                                <span class="value">+1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 25
                             </div>
                             <div class="entry">
-                                <span class="value">+1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 26
                             </div>
                             <div class="entry">
@@ -305,18 +155,18 @@
                                 27
                             </div>
                             <div class="entry">
-                                <span class="value">+2</span>
-                                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 28
                             </div>
                             <div class="entry">
-                                <span class="value">+1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 29
                             </div>
                             <div class="entry">
-                                <span class="value">+3</span>
-                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 30
                             </div>
                             <div class="entry">
@@ -326,19 +176,24 @@
                                 <div class="bottom">Oct.</div>
                             </div>
                             <div class="entry">
-                                <span class="value">+1</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 2
                             </div>
                             <div class="entry">
-                                <span class="value">+2</span>
-                                <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 3
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 4
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                5
                             </div>
                         </div>
                     </section>
@@ -360,15 +215,15 @@
                     </h2>
                     <div class="medias largeable-flex-wrap">
                         <div class="media largeable-width-half">
-                            <img src="data:image/jpg;base64,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" alt="" />
+                            <img src="data:image/jpg;base64,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" alt="" />
                             <div class="about">
-                                <div class="name">Kingdom Rush</div>
+                                <div class="name">Kingdom Rush 6: Genesis TD</div>
                                 <div class="infos">
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/>
                                         </svg>
-                                        Strategy
+                                        Action, Indie, Strategy
                                     </div>
                                 </div>
                                 <div class="infos">
@@ -376,7 +231,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z"/>
                                         </svg>
-                                        15 hours played
+                                        4 hours played
                                     </div>
                                 </div>
                                 <div class="infos">
@@ -384,7 +239,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path d="M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 0 1 4.75 0ZM2.5 7.5v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V7.5Zm10.75-4H2.75a.25.25 0 0 0-.25.25V6h11V3.75a.25.25 0 0 0-.25-.25Z"/>
                                         </svg>
-                                        Last played on 3 Oct 2026
+                                        Last played on 4 Oct 2026
                                     </div>
                                 </div>
                                 <div class="achievements">
@@ -393,32 +248,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                                 <path d="M3.217 6.962A3.75 3.75 0 0 1 0 3.25v-.5C0 1.784.784 1 1.75 1h1.356c.228-.585.796-1 1.462-1h6.864c.647 0 1.227.397 1.462 1h1.356c.966 0 1.75.784 1.75 1.75v.5a3.75 3.75 0 0 1-3.217 3.712 5.014 5.014 0 0 1-2.771 3.117l.144 1.446c.005.05.03.12.114.204.086.087.217.17.373.227.283.103.618.274.89.568.285.31.467.723.467 1.226v.75h1.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H4v-.75c0-.503.182-.916.468-1.226.27-.294.606-.465.889-.568.139-.048.266-.126.373-.227.084-.085.109-.153.114-.204l.144-1.446a5.015 5.015 0 0 1-2.77-3.117ZM4.5 1.568V5.5a3.5 3.5 0 1 0 7 0V1.568a.068.068 0 0 0-.068-.068H4.568a.068.068 0 0 0-.068.068Zm2.957 8.902-.12 1.204c-.093.925-.858 1.47-1.467 1.691a.766.766 0 0 0-.3.176c-.037.04-.07.093-.07.21v.75h5v-.75c0-.117-.033-.17-.07-.21a.766.766 0 0 0-.3-.176c-.609-.221-1.374-.766-1.466-1.69l-.12-1.204a5.064 5.064 0 0 1-1.087 0ZM13 2.5v2.872a2.25 2.25 0 0 0 1.5-2.122v-.5a.25.25 0 0 0-.25-.25H13Zm-10 0H1.75a.25.25 0 0 0-.25.25v.5c0 .98.626 1.813 1.5 2.122Z"/>
                                             </svg>
-                                            56 / 74 achievements unlocked
-                                        </div>
-                                    </div>
-                                    <div class="achievement">
-                                        <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAgACADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAABgcIBQL/xAAoEAACAgEDAgYDAQEAAAAAAAABAgMEEQAFIQYSBxMUMUFRIjJhcZH/xAAYAQEAAwEAAAAAAAAAAAAAAAACAAEDBP/EABsRAAIDAQEBAAAAAAAAAAAAAAABAgMREjEi/9oADAMBAAIRAxEAPwCeqVWS3OscakliBgfJPxo8reHe8xtAljarMTzIZIxKnaWUHBIB5JHuRjIHONc+E+3pP1FQmmA9PVkFuwxwAscZDH3+8AD+kae0K7vOIrSV3opuz2kd/UBhVm4aKxG7k4yCRwTx3Yx8cdln1g9URB7l0Vdh2tNw9IzU3ziaP8lHJH5Y/Xke5wDoQ3Tb7G23Ja1uJ4pY2KsjDBU/R1TBeeCpu26m5VtdX04lr2YYpC6CHhWk7AB3kDgjlfnSX8RoKclhLO301pwyxg+Wj9yF1JVmTPIQkZAP9+NVVb0yJqa1GB0NuKVrEU06xz+UQ3kzp5kcpB/VhkcYz/zTk3na4l6Z6Yq3OoNsWARz3KySNNEXEhARuEPaAVP7Y9iOffU3UbbVZQw9vnRrV6tsywBJLkrr5SQ4du7CIcqvPsAeQNaWQe6KLTWMc01Op05f2vdvWSTW7cS2BT29FkkOEKTM8h48okHjBJ5PGNKnxguxS7w0lW2J60leE1+xe0Rxdg7UABwCOQR9g/esy91PL6dIzZfsjQxIobGFJJK/4STx/dB1+21qUseF+NCmhRaeeA4jDw//2Q==" alt="" />
-                                        <div>
-                                            <div class="name">
-                                                <div>Arachnophobia</div>
-                                                <div class="unlocked">19 Feb 2023</div>
-                                            </div>
-                                            <div class="description">Defeat Sarelgaz and its minions.</div>
-                                        </div>
-                                    </div>
-                                    <div class="achievement">
-                                        <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAgACADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAABgcIAAP/xAApEAACAgAEBQMFAQAAAAAAAAABAgMEAAUREgYTITFBBzJxFBYiUWGB/8QAGAEAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAfEQACAwABBQEAAAAAAAAAAAABAgADEUEEEhMhUWH/2gAMAwEAAhEDEQA/AM81a7WJdq9vJwjoZMjty0RpJdNSqKWI+f1juDssfMrlSnE4iltzLCshGuzcfdp50Gpw69I6uS/dxrcTQRWIoQypVlP4SyBirag9GI01APfr+sKWOdwR7pqEZWd+PkFZhkJijBmrywhuitJGVBP8PbBm7VarJtYfj4ONOerkHC2SV8qvZFVrVGsSslzL41AjsV9hLFogdAVIADaDq3nEN42yefLLEle1DyX5cdhIy24pHIodFY+WCsAf6DgRiDkm+hPELU530fyH+EMwmrTQTV5THZgkWSNz12sp1B084b8L5IM7hzOayfqLcA3R1RLs5zsC25mHXTX9aecSSnZatKHXt5GE1POYn2sxAdex10I/3FrKzuiY1XsilQc2WDjT03iyXgy1xDHYMDJaSCOu83M+oicKAQT1VgWbp20XxiUccZ1czWVrWZzia40ccRZRoNqIEUafCj5Opx43c6jKgs5dh7dzFtPjXBi9ba1LuPtHYYK0PMLL2K9hOz//2Q==" alt="" />
-                                        <div>
-                                            <div class="name">
-                                                <div>Super Mushroom</div>
-                                                <div class="unlocked">19 Feb 2023</div>
-                                            </div>
-                                            <div class="description">Defeat Myconid, the Rotten Fungus.</div>
-                                        </div>
-                                    </div>
-                                    <div class="achievement">
-                                        <div>
-                                            <div class="description ellipsis">+54 others...</div>
+                                            0 / 53 achievements unlocked
                                         </div>
                                     </div>
                                 </div>
