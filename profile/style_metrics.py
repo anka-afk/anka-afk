@@ -25,6 +25,9 @@ def terminal(source):
       .button.exit { background: #e0a8c6; }
       .title { color: #f3e8ff; }
       pre { color: #f0e8f9; background: #2b203b; border-radius: 0 0 7px 7px; }
+      .stdin, .stdout { animation: none !important; }
+      .stdin { width: auto !important; }
+      .stdout { max-height: none !important; }
       .ps1-path { color: #dcc1ff; }
       .ps1-location { color: #c4d1f2; }
       .stdout span[style="color:#9be9a8"] { color: #af90d5 !important; }
@@ -37,7 +40,9 @@ def terminal(source):
               --color-calendar-graph-day-L3-bg: #c9a8ed;
               --color-calendar-graph-day-L4-bg: #e1c7fa; }
     '''
-    return configure(ET.fromstring(source), 480, 258, css)
+    svg = ET.fromstring(source)
+    width, height = int(svg.attrib['width']), int(svg.attrib['height'])
+    return configure(svg, width, height, css)
 
 
 def achievements(source, columns, width):
