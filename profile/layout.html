@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anka profile card rendering</title>
+<style>
+    :root {
+      color-scheme: light dark;
+      --surface: light-dark(#fff, #171520);
+      --tint: light-dark(#f7f3fd, #21192e);
+      --ink: light-dark(#29223a, #f2ebff);
+      --muted: light-dark(#645b72, #c1b5d2);
+      --border: light-dark(#e0d8ec, #403450);
+      --accent: light-dark(#63418e, #d8baff);
+      --bar: light-dark(#8a63b8, #b58de6);
+      --hero-base: light-dark(#ede4f7, #2a1e3e);
+      --hero-glow: light-dark(#fcf0f4, #39254a);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: transparent; color: var(--ink); font: 14px/1.5 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    h1, h2, h3, p, dl, dd { margin: 0; }
+    img { display: block; max-width: 100%; height: auto; }
+    main > * { margin-bottom: 8px; }
+
+    .hero { display: grid; grid-template-columns: minmax(0, 43fr) minmax(0, 57fr); min-width: 0; border: 1px solid var(--border); border-radius: 13px; overflow: hidden; background: var(--hero-base); }
+    .hero-copy { display: flex; min-width: 0; flex-direction: column; justify-content: center; padding: 17px clamp(16px, 4vw, 39px); background: radial-gradient(ellipse at 92% 12%, var(--hero-glow), transparent 69%), var(--hero-base); }
+    .prompt { color: var(--accent); font: 600 12px/1.3 'Cascadia Mono', Consolas, monospace; letter-spacing: .06em; }
+    h1 { font-weight: 730; }
+    .bio { color: var(--muted); font-weight: 600; }
+    .hero-art { align-self: stretch; width: 100%; object-fit: contain; background: var(--hero-base); }
+
+    .section-heading { font-size: 21px; line-height: 1.3; letter-spacing: -.025em; margin-bottom: 9px; font-weight: 660; }
+    .panel { border: 1px solid var(--border); border-radius: 10px; background: var(--surface); overflow: hidden; }
+    .activity-summary dt { color: var(--muted); font-size: 12px; }
+    .activity-summary dd { line-height: 1.14; font-weight: 690; font-variant-numeric: tabular-nums; letter-spacing: -.035em; }
+    .language-bar { display: flex; gap: 2px; height: 8px; margin: 9px 0 11px; border-radius: 8px; overflow: hidden; }
+    .language-legend { display: grid; font-size: 12px; }
+    .language-legend div { display: flex; justify-content: space-between; gap: 4px; }
+    .language-legend dt { display: flex; gap: 6px; align-items: baseline; color: var(--muted); }
+    .language-legend dd { font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .dot { flex: 0 0 7px; height: 7px; border-radius: 50%; }
+    .lang-html { background: #a179ce; }
+    .lang-python { background: #7799c7; }
+    .lang-jupyter { background: #c888a7; }
+    .lang-js { background: #c1a064; }
+    .lang-css { background: #8471b7; }
+    .lang-ts { background: #72a8a3; }
+
+    .activity { padding: 13px 17px 12px; background: var(--tint); }
+    .activity-summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-bottom: 11px; }
+    .activity-summary > div { display: flex; flex-direction: column-reverse; gap: 2px; }
+    .activity-summary dd { color: var(--accent); font-size: clamp(20px, 3.3vw, 28px); }
+    .chart { display: grid; grid-template-columns: 20px minmax(0, 1fr); gap: 5px 8px; }
+    .chart-scale, .chart-dates { color: var(--muted); font-size: 11px; }
+    .chart-scale { display: flex; align-items: end; flex-direction: column; justify-content: space-between; margin-block: -7px; }
+    .chart-plot { position: relative; height: 82px; }
+    .chart-guides, .chart-bars { position: absolute; inset: 0; }
+    .chart-guides { display: flex; flex-direction: column; justify-content: space-between; }
+    .chart-guides span { height: 1px; background: var(--border); }
+    .chart-bars { display: grid; grid-template-columns: repeat(31, minmax(0, 1fr)); gap: clamp(1px, .5vw, 6px); }
+    .chart-bar { display: flex; align-items: end; }
+    .chart-bar span { width: 100%; border-radius: 2px 2px 0 0; background: var(--bar); }
+    .chart-dates { grid-column: 2; display: flex; justify-content: space-between; }
+
+    @media (max-width: 660px) {
+      .activity { padding-inline: 11px; }
+    }
+    @media (max-width: 480px) {
+      .hero { grid-template-columns: minmax(0, 1fr); }
+      .hero-art { grid-row: 1; }
+      .hero-copy { padding: 14px 16px 16px; }
+      .activity-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    }
+.hero-copy h1 { font-size: clamp(31px, 5.4vw, 50px); line-height: 1.02; letter-spacing: -.055em; margin: 8px 0 9px; }
+.hero-copy h1 span { display: block; color: inherit; }
+.hero-copy h1 strong { font-weight: inherit; color: var(--accent); }
+.bio-divider { padding-inline: 2px; color: var(--accent); }
+.profile-details { display: grid; gap: 12px; }
+.profile-details-pair { display: grid; grid-template-columns: minmax(0, 1.13fr) minmax(0, 1fr); gap: 12px; }
+.profile-detail-card { min-width: 0; padding: 13px 15px; background: var(--tint); }
+.profile-detail-card h3 { font-size: 14px; color: var(--accent); margin-bottom: 8px; }
+.profile-steam { display: flex; flex-direction: column; }
+.steam-label { margin-bottom: 6px; font-size: 12px; color: var(--muted); }
+.steam-games { display: grid; flex: 1; grid-auto-rows: 1fr; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.steam-game { display: grid; grid-template-columns: clamp(80px, 12vw, 118px) minmax(0, 1fr); gap: 10px; align-items: center; padding: 8px; border: 1px solid var(--border); border-radius: 7px; background: var(--surface); }
+.steam-game img { aspect-ratio: 184 / 69; object-fit: cover; border-radius: 3px; }
+.steam-game-name { color: var(--ink); font-size: 13px; font-weight: 680; text-decoration: none; }
+.steam-game-meta { display: flex; flex-wrap: wrap; gap: 0 9px; color: var(--muted); font-size: 11px; }
+.profile-more { border: 1px solid var(--border); border-radius: 8px; padding: 0 12px; background: var(--surface); }
+.profile-more img { margin: 0 auto 11px; width: min(100%, 520px); }
+@media (max-width: 650px) {
+  .profile-details-pair { grid-template-columns: minmax(0, 1fr); }
+  .profile-detail-card { padding: 10px 11px; }
+}
+.overview-pair { display: grid; grid-template-columns: minmax(0, 1.32fr) minmax(0, 1fr); }
+.overview-stats-card { display: flex; align-items: center; justify-content: center; min-width: 0; background: var(--tint); padding: 3px 0; }
+.overview-stats-card img { width: 100%; }
+.overview-pair .language-panel { border-left: 1px solid var(--border); padding: 16px 19px; }
+.overview-pair .language-header h3 { font-size: 16px; }
+.overview-pair .language-legend { grid-template-columns: minmax(0, 1fr); gap: 3px; }
+@media (max-width: 660px) {
+  .overview-pair { grid-template-columns: minmax(0, 1fr); }
+  .overview-pair .language-panel { border-left: 0; border-top: 1px solid var(--border); padding: 13px; }
+}
+</style>
+<main>
+      <header class="hero">
+<div class="hero-copy">
+  <span class="prompt">$ whoami</span>
+  <h1><span>👋 Hi there,</span> <span>I'm <strong>anka</strong></span></h1>
+  <p class="bio">USTC <span class="bio-divider" aria-hidden="true">/</span> LLM Training</p>
+
+</div>
+        <img class="hero-art" src="{{COVER}}" width="1200" height="675" alt="Anka’s original lavender-haired avatar illustration" />
+      </header>
+
+      <section aria-labelledby="github-overview">
+  <h2 class="section-heading" id="github-overview">GitHub at a glance</h2>
+  <div class="panel overview-pair">
+    <a class="overview-stats-card" href="{{STATS_LIGHT}}">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="{{STATS_DARK}}" />
+        <img src="{{STATS_LIGHT}}" width="448" alt="Anka's GitHub Stats, including overall rank, stars, commits, pull requests, issues and contributed repositories" />
+      </picture>
+    </a>
+    <div class="language-panel">
+            <div class="language-header"><h3>Most used languages</h3></div>
+            <div class="language-bar" aria-hidden="true">{{LANGUAGE_BAR}}</div>
+            <dl class="language-legend">{{LANGUAGE_LEGEND}}</dl>
+          </div>
+  </div>
+</section>
+
+      <section aria-labelledby="contribution-activity">
+        <h2 class="section-heading" id="contribution-activity">Contribution activity</h2>
+        <div class="panel activity">
+          <dl class="activity-summary">{{ACTIVITY_SUMMARY}}</dl>
+          <div class="chart" role="img" aria-label="{{CHART_ALT}}">
+            <div class="chart-scale" aria-hidden="true">{{CHART_SCALE}}</div>
+            <div class="chart-plot" aria-hidden="true">
+              <div class="chart-guides"><span></span><span></span><span></span></div>
+              <div class="chart-bars">{{CHART_BARS}}</div>
+            </div>
+            <div class="chart-dates" aria-hidden="true">{{CHART_DATES}}</div>
+          </div>
+        </div>
+      </section>
+
+
+
+<section aria-labelledby="details-title">
+  <h2 class="section-heading" id="details-title">Profile details</h2>
+  <div class="profile-details">
+    <div class="profile-details-pair">
+      <section class="panel profile-detail-card" aria-labelledby="terminal-title">
+        <h3 id="terminal-title">Terminal</h3>
+        <img src="{{TERMINAL}}" alt="Anka’s Whoami terminal and repository statistics" />
+      </section>
+      <section class="panel profile-detail-card profile-steam" aria-labelledby="steam-title">
+        <h3 id="steam-title">Steam</h3>
+        <p class="steam-label">Recently played</p>
+        <ul class="steam-games">{{STEAM_GAMES}}</ul>
+      </section>
+    </div>
+    <section class="panel profile-detail-card" aria-labelledby="achievements-title">
+      <h3 id="achievements-title">Achievements</h3>
+      <picture>
+        <source media="(max-width: 650px)" srcset="{{ACHIEVEMENTS_MOBILE}}" />
+        <img src="{{ACHIEVEMENTS}}" alt="Anka’s GitHub Metrics achievement badges, colored by rank" />
+      </picture>
+    </section>
+    <div class="panel profile-more"><img src="{{MORE_METRICS}}" alt="Recent coding habits and stargazers" /></div>
+  </div>
+</section>
+</main>
+</html>
