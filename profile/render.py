@@ -2,14 +2,17 @@
 
 from base64 import b64encode
 from concurrent.futures import ThreadPoolExecutor
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from html import escape, unescape
 from pathlib import Path
+import json
 import re
 from tempfile import TemporaryDirectory
 from subprocess import run
 from time import sleep
 from urllib.parse import urlencode
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 
@@ -22,6 +25,29 @@ SVG = 'http://www.w3.org/2000/svg'
 USER = 'anka-afk'
 STATS = 'https://my-github-stats-lilac.vercel.app/api'
 STEAM = 'https://steamcommunity.com/profiles/76561198807374746/'
+CACHE = PROFILE / 'cache'
+
+
+def warning(message):
+    # Escape workflow command delimiters, including text returned by a remote server.
+    message = str(message).replace('%', '%25').replace('\r', '%0D').replace('\n', '%0A')
+    print(f'::warning::{message}', flush=True)
+
+
+def retry_delay(error, attempt):
+    delay = (15 if isinstance(error, HTTPError) and error.code == 429 else 5) * 2 ** attempt
+    if isinstance(error, HTTPError):
+        value = error.headers.get('Retry-After') if error.headers else None
+        if value:
+            try:
+                seconds = float(value)
+            except ValueError:
+                try:
+                    seconds = (parsedate_to_datetime(value) - datetime.now(timezone.utc)).total_seconds()
+                except (TypeError, ValueError, OverflowError):
+                    seconds = 0
+            delay = max(delay, seconds)
+    return delay
 
 
 def fetch(url):
@@ -30,10 +56,74 @@ def fetch(url):
         try:
             with urlopen(request, timeout=15) as response:
                 return response.read()
-        except OSError:
+        except OSError as error:
             if attempt == 2:
                 raise
-            sleep(attempt + 1)
+            if isinstance(error, HTTPError) and error.code not in (408, 429, 500, 502, 503, 504):
+                raise
+            delay = retry_delay(error, attempt)
+            # Use cached content instead of retrying before a long server cooldown expires.
+            if delay > 120:
+                raise
+            warning(f'Request failed ({type(error).__name__}); retrying in {delay:g}s')
+            sleep(delay)
+
+
+def cached_source(name, producer, fallback):
+    """Cache only validated successful sections; failures never overwrite good data."""
+    path = CACHE / f'{name}.json'
+    try:
+        values = producer()
+        if (not isinstance(values, dict) or values.keys() != fallback.keys()
+                or not all(isinstance(value, str) for value in values.values())):
+            raise ValueError('Unexpected section data')
+    except (OSError, ValueError, ET.ParseError, KeyError) as error:
+        try:
+            saved = json.loads(path.read_text(encoding='utf-8'))
+            values = saved['values']
+            if (not isinstance(values, dict) or values.keys() != fallback.keys()
+                    or not all(isinstance(value, str) for value in values.values())
+                    or not isinstance(saved['updated_at'], str)):
+                raise ValueError('Unexpected cache data')
+        except (OSError, ValueError, KeyError, TypeError):
+            warning(f'{name}: {error}; no usable cache, displaying unavailable')
+            return fallback.copy()
+        warning(f'{name}: {error}; using cached data from {saved["updated_at"]}')
+        return values
+    CACHE.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix('.tmp')
+    temporary.write_text(json.dumps({
+        'updated_at': datetime.now(timezone.utc).isoformat(), 'values': values,
+    }, ensure_ascii=False) + '\n', encoding='utf-8')
+    temporary.replace(path)
+    return values
+
+
+def unavailable_stats(color):
+    return image((f'<svg xmlns="{SVG}" width="448" height="195" viewBox="0 0 448 195">'
+                  f'<text x="24" y="48" fill="#{color}" font-family="sans-serif" font-size="18">'
+                  'GitHub stats temporarily unavailable</text></svg>').encode())
+
+
+def gather_values():
+    sources = (
+        ('stats-light', lambda: {'STATS_LIGHT': stats_card(('29223a', '63418e', '8a63b8'))},
+         {'STATS_LIGHT': unavailable_stats('29223a')}),
+        ('stats-dark', lambda: {'STATS_DARK': stats_card(('f2ebff', 'd8baff', 'b58de6'))},
+         {'STATS_DARK': unavailable_stats('f2ebff')}),
+        ('languages', language_chart, {'LANGUAGE_BAR': '', 'LANGUAGE_LEGEND':
+         '<div><dt>Language data temporarily unavailable</dt><dd>—</dd></div>'}),
+        ('steam', lambda: {'STEAM_GAMES': recent_games()}, {'STEAM_GAMES':
+         '<li class="steam-game-meta">Steam data temporarily unavailable.</li>'}),
+        ('activity', lambda: activity(streak()), {
+            'ACTIVITY_SUMMARY': '<div><dt>Contribution data temporarily unavailable</dt><dd>—</dd></div>',
+            'CHART_ALT': 'Contribution data temporarily unavailable.',
+            'CHART_SCALE': '', 'CHART_BARS': '', 'CHART_DATES': '',
+        }),
+    )
+    with ThreadPoolExecutor(max_workers=5) as pool:
+        futures = [pool.submit(cached_source, *source) for source in sources]
+        return {key: value for future in futures for key, value in future.result().items()}
 
 
 def image(data, mime='image/svg+xml'):
@@ -116,6 +206,8 @@ def activity(streak_values):
 
 def recent_games():
     profile = fetch(STEAM).decode()
+    if 'class="profile_' not in profile:
+        raise ValueError('Steam returned an unexpected profile page')
     recent = profile.partition('class="recent_games"')[2]
     pattern = (
         r'<img class="game_capsule" src="([^"]+)".*?'
@@ -124,6 +216,8 @@ def recent_games():
     )
     entries = re.findall(pattern, recent, re.S)[:2]
     if not entries:
+        if 'game_capsule' in recent:
+            raise ValueError('Steam recent games markup changed')
         return '<li class="steam-game-meta">No recent games on Steam.</li>'
     games = []
     for cover, hours, day, name in entries:
@@ -142,16 +236,7 @@ def recent_games():
 
 
 def render():
-    with ThreadPoolExecutor(max_workers=5) as pool:
-        light = pool.submit(stats_card, ('29223a', '63418e', '8a63b8'))
-        dark = pool.submit(stats_card, ('f2ebff', 'd8baff', 'b58de6'))
-        languages = pool.submit(language_chart)
-        steam = pool.submit(recent_games)
-        streak_values = pool.submit(streak)
-        values = {
-            'STATS_LIGHT': light.result(), 'STATS_DARK': dark.result(),
-            **languages.result(), 'STEAM_GAMES': steam.result(), **activity(streak_values.result()),
-        }
+    values = gather_values()
     raw_terminal = (REPO / 'github-metrics-terminal.svg').read_bytes()
     raw_achievements = (REPO / 'github-metrics-achievements.svg').read_bytes()
     raw_plugins = (REPO / 'github-metrics-plugins.svg').read_bytes()
