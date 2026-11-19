@@ -10,6 +10,8 @@
   <a href="https://space.bilibili.com/26584382"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Bilibili-38294E?style=flat&amp;logo=bilibili&amp;logoColor=D8BAFF" /><img height="23" src="https://img.shields.io/badge/Bilibili-EEE6F8?style=flat&amp;logo=bilibili&amp;logoColor=63418E" alt="Bilibili" /></picture></a>
 </p>
 
+> I’m looking for a **remote internship** in LLM training or AI application development. If your team is hiring, I’d love to hear from you at [anka@mail.ustc.edu.cn](mailto:anka@mail.ustc.edu.cn).
+
 ## GitHub at a glance
 
 <picture>
