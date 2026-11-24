@@ -7,10 +7,22 @@
 
 <p>
   <a href="https://ankaanka.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Blog-38294E?style=flat&amp;logo=rss&amp;logoColor=D8BAFF" /><img height="23" src="https://img.shields.io/badge/Blog-EEE6F8?style=flat&amp;logo=rss&amp;logoColor=63418E" alt="Blog" /></picture></a>
+  <a href="https://ankaanka.org/papers/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Papers-38294E?style=flat&amp;logo=bookstack&amp;logoColor=D8BAFF" /><img height="23" src="https://img.shields.io/badge/Papers-EEE6F8?style=flat&amp;logo=bookstack&amp;logoColor=63418E" alt="Papers" /></picture></a>
   <a href="https://space.bilibili.com/26584382"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Bilibili-38294E?style=flat&amp;logo=bilibili&amp;logoColor=D8BAFF" /><img height="23" src="https://img.shields.io/badge/Bilibili-EEE6F8?style=flat&amp;logo=bilibili&amp;logoColor=63418E" alt="Bilibili" /></picture></a>
 </p>
 
 > I’m looking for a **remote internship** in LLM training or AI application development. If your team is hiring, I’d love to hear from you at [anka@mail.ustc.edu.cn](mailto:anka@mail.ustc.edu.cn).
+
+## Recent writing
+
+<!-- RECENT_WRITING:START -->
+- [DPO：从偏好数据到策略优化](https://ankaanka.org/papers/01-dpo/) · *推断智能 #01*
+- [Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents](https://ankaanka.org/papers/04-eto/) · *推断智能 #04*
+- [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://ankaanka.org/papers/03-mamba/) · *推断智能 #03*
+- [Training Language Models to Self-Correct via Reinforcement Learning](https://ankaanka.org/papers/02-score/) · *推断智能 #02*
+<!-- RECENT_WRITING:END -->
+
+<sub>More paper derivations &amp; notes on <a href="https://ankaanka.org/papers/">ankaanka.org</a> · <a href="https://ankaanka.org/rss.xml">RSS</a></sub>
 
 ## GitHub at a glance
 
