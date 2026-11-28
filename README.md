@@ -16,10 +16,10 @@
 ## Recent writing
 
 <!-- RECENT_WRITING:START -->
+- [我创造了一个几乎全评测集 SOTA 的记忆系统](https://ankaanka.org/blog/issue-1/)
 - [Nash Learning from Human Feedback](https://ankaanka.org/papers/05-nlhf/) · *推断智能 #05*
 - [DPO：从偏好数据到策略优化](https://ankaanka.org/papers/01-dpo/) · *推断智能 #01*
 - [重新出发：把博客改造成我的论文花园与个人空间](https://ankaanka.org/blog/hello-new-blog/)
-- [Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents](https://ankaanka.org/papers/04-eto/) · *推断智能 #04*
 <!-- RECENT_WRITING:END -->
 
 <sub>More paper derivations &amp; notes on <a href="https://ankaanka.org/papers/">ankaanka.org</a> · <a href="https://ankaanka.org/rss.xml">RSS</a></sub>
